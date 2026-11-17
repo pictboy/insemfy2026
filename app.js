@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const state = {
     currentTab: "overview",
     selectedDivision: "all",
-    selectedCategory: "all",
     searchQuery: "",
     sortColumn: "roll_no",
     sortAsc: true,
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabButtons = document.querySelectorAll(".nav-tab");
   const viewSections = document.querySelectorAll(".view-section");
   const divSelectorBar = document.getElementById("divisionSelectorBar");
-  const categoryFilter = document.getElementById("categoryFilter");
   const tableSearchInput = document.getElementById("tableSearchInput");
   const globalSearchInput = document.getElementById("globalSearchInput");
   const rowsPerPageSelect = document.getElementById("rowsPerPageSelect");
@@ -87,7 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("kpiTotalStudents").textContent = meta.total_students;
     document.getElementById("kpiAverageScore").textContent = `${meta.overall_average} / 100`;
     document.getElementById("kpiTopScore").textContent = `${meta.highest_score} / 100`;
-    document.getElementById("kpiNriCount").textContent = `${meta.total_nri} Students`;
+    if (document.getElementById("kpiDivCount")) {
+      document.getElementById("kpiDivCount").textContent = "13 Divisions";
+    }
     
     const top = meta.college_toppers[0];
     if (top) {
@@ -139,12 +139,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Filter & Search Event Listeners
-  categoryFilter.addEventListener("change", (e) => {
-    state.selectedCategory = e.target.value;
-    state.currentPage = 1;
-    renderTable();
-  });
-
   tableSearchInput.addEventListener("input", (e) => {
     state.searchQuery = e.target.value.trim().toLowerCase();
     state.currentPage = 1;
@@ -161,12 +155,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function getFilteredStudents() {
     return students.filter(s => {
       if (state.selectedDivision !== "all" && s.division !== state.selectedDivision) {
-        return false;
-      }
-      if (state.selectedCategory === "General" && s.category !== "General") {
-        return false;
-      }
-      if (state.selectedCategory === "NRI" && s.category === "General") {
         return false;
       }
       if (state.searchQuery) {
@@ -218,7 +206,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { key: "college_rank", label: "College Rank", sortable: true, highlight: "college_rank" },
         { key: "name", label: "Student Name", sortable: true },
         { key: "mis_id", label: "MIS ID", sortable: true },
-        { key: "category", label: "Category", sortable: true },
         { key: "subj_0", label: "Sub 1 (/20)", sortable: false },
         { key: "subj_1", label: "Sub 2 (/20)", sortable: false },
         { key: "subj_2", label: "Sub 3 (/20)", sortable: false },
@@ -243,7 +230,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { key: "college_rank", label: "College Rank", sortable: true, highlight: "college_rank" },
         { key: "name", label: "Student Name", sortable: true },
         { key: "mis_id", label: "MIS ID", sortable: true },
-        { key: "category", label: "Category", sortable: true },
         { key: `subj_${subjs[0]}`, label: subLabels[0], sortable: true },
         { key: `subj_${subjs[1]}`, label: subLabels[1], sortable: true },
         { key: `subj_${subjs[2]}`, label: subLabels[2], sortable: true },
@@ -324,7 +310,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <td style="text-align:center; font-weight:800; font-size:1rem; color:#9333ea; background: rgba(147, 51, 234, 0.05);">${s.college_rank}</td>
           <td><strong>${s.name}</strong></td>
           <td><code>${s.mis_id}</code></td>
-          <td>${s.category}</td>
         `;
 
         // 5 subject marks
@@ -424,7 +409,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     document.getElementById("modalStudentAvatar").textContent = initials;
     document.getElementById("modalStudentName").textContent = stu.name;
-    document.getElementById("modalStudentMeta").textContent = `Roll No: ${stu.roll_no} | MIS ID: ${stu.mis_id} | Division: ${stu.division} (${stu.category})`;
+    document.getElementById("modalStudentMeta").textContent = `Roll No: ${stu.roll_no} | MIS ID: ${stu.mis_id} | Division: ${stu.division}`;
     document.getElementById("modalClassRank").textContent = `Class Rank: #${stu.div_rank}`;
     document.getElementById("modalCollegeRank").textContent = `College Rank: #${stu.college_rank}`;
     document.getElementById("modalTotalScore").textContent = `${stu.total} / 100`;
@@ -490,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <span>Roll: ${s.roll_no}</span>
           </div>
           <h4 style="font-size:1rem; font-weight:700; margin-bottom:0.25rem;">${s.name}</h4>
-          <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">MIS: ${s.mis_id} | ${s.category}</p>
+          <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">MIS: ${s.mis_id}</p>
           <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:0.5rem; font-size:0.85rem; font-weight:700;">
             <span style="color:#d97706;">Class Rank: #${s.div_rank}</span>
             <span style="color:#9333ea;">College Rank: #${s.college_rank}</span>
@@ -685,7 +670,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="stat-info">
               <h3>Total Students</h3>
               <div class="stat-value" style="font-size:1.4rem;">${d.total_students}</div>
-              <div class="stat-sub">${d.regular_students} General + ${d.nri_students} NRI</div>
+              <div class="stat-sub">Roll ${d.min_roll} – ${d.max_roll}</div>
             </div>
           </div>
           <div class="stat-card" style="padding:0.75rem;">
@@ -725,16 +710,16 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    let csv = "Roll No,Class Rank,College Rank,Student Name,MIS ID,Division,Category,Total (/100),Percentage\n";
+    let csv = "Roll No,Class Rank,College Rank,Student Name,MIS ID,Division,Total (/100),Percentage\n";
     filtered.forEach(s => {
-      csv += `"${s.roll_no}",${s.div_rank},${s.college_rank},"${s.name.replace(/"/g, '""')}","${s.mis_id}","${s.division}","${s.category}",${s.total},${s.percentage}\n`;
+      csv += `"${s.roll_no}",${s.div_rank},${s.college_rank},"${s.name.replace(/"/g, '""')}","${s.mis_id}","${s.division}",${s.total},${s.percentage}\n`;
     });
 
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `PICT_Marks_with_Ranks_${state.selectedDivision}_${state.selectedCategory}.csv`;
+    a.download = `PICT_Marks_with_Ranks_${state.selectedDivision}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   });

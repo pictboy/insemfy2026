@@ -1,8 +1,6 @@
 {
   "meta": {
     "total_students": 955,
-    "total_regular": 884,
-    "total_nri": 71,
     "overall_average": 76.82,
     "highest_score": 100,
     "college_toppers": [
@@ -77,15 +75,14 @@
         "name": "Engineering Graphics",
         "max": 20
       }
-    }
+    },
+    "total_divisions": 13
   },
   "divisions": {
     "FY1": {
       "division": "FY1",
       "div_num": 1,
       "total_students": 74,
-      "regular_students": 71,
-      "nri_students": 3,
       "min_roll": 10101,
       "max_roll": 10174,
       "subjects": [
@@ -151,8 +148,6 @@
       "division": "FY2",
       "div_num": 2,
       "total_students": 74,
-      "regular_students": 67,
-      "nri_students": 7,
       "min_roll": 10201,
       "max_roll": 10274,
       "subjects": [
@@ -218,8 +213,6 @@
       "division": "FY3",
       "div_num": 3,
       "total_students": 74,
-      "regular_students": 67,
-      "nri_students": 7,
       "min_roll": 10301,
       "max_roll": 10374,
       "subjects": [
@@ -285,8 +278,6 @@
       "division": "FY4",
       "div_num": 4,
       "total_students": 74,
-      "regular_students": 65,
-      "nri_students": 9,
       "min_roll": 10401,
       "max_roll": 10474,
       "subjects": [
@@ -352,8 +343,6 @@
       "division": "FY5",
       "div_num": 5,
       "total_students": 74,
-      "regular_students": 67,
-      "nri_students": 7,
       "min_roll": 10501,
       "max_roll": 10574,
       "subjects": [
@@ -419,8 +408,6 @@
       "division": "FY6",
       "div_num": 6,
       "total_students": 73,
-      "regular_students": 68,
-      "nri_students": 5,
       "min_roll": 10601,
       "max_roll": 10673,
       "subjects": [
@@ -486,8 +473,6 @@
       "division": "FY7",
       "div_num": 7,
       "total_students": 74,
-      "regular_students": 71,
-      "nri_students": 3,
       "min_roll": 10701,
       "max_roll": 10774,
       "subjects": [
@@ -553,8 +538,6 @@
       "division": "FY8",
       "div_num": 8,
       "total_students": 73,
-      "regular_students": 67,
-      "nri_students": 6,
       "min_roll": 10801,
       "max_roll": 10873,
       "subjects": [
@@ -620,8 +603,6 @@
       "division": "FY9",
       "div_num": 9,
       "total_students": 73,
-      "regular_students": 67,
-      "nri_students": 6,
       "min_roll": 10901,
       "max_roll": 10973,
       "subjects": [
@@ -687,8 +668,6 @@
       "division": "FY10",
       "div_num": 10,
       "total_students": 73,
-      "regular_students": 66,
-      "nri_students": 7,
       "min_roll": 11001,
       "max_roll": 11073,
       "subjects": [
@@ -754,8 +733,6 @@
       "division": "FY11",
       "div_num": 11,
       "total_students": 73,
-      "regular_students": 68,
-      "nri_students": 5,
       "min_roll": 11101,
       "max_roll": 11173,
       "subjects": [
@@ -821,8 +798,6 @@
       "division": "FY12",
       "div_num": 12,
       "total_students": 73,
-      "regular_students": 70,
-      "nri_students": 3,
       "min_roll": 11201,
       "max_roll": 11273,
       "subjects": [
@@ -888,8 +863,6 @@
       "division": "FY13",
       "div_num": 13,
       "total_students": 73,
-      "regular_students": 70,
-      "nri_students": 3,
       "min_roll": 11301,
       "max_roll": 11373,
       "subjects": [
@@ -959,7 +932,6 @@
       "name": "Kumar Tarun -",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -986,7 +958,6 @@
       "name": "Roy Anushrav -",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1013,7 +984,6 @@
       "name": "Gandhi Aditya Sameer",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1040,7 +1010,6 @@
       "name": "Tare Aniket Raju",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1067,7 +1036,6 @@
       "name": "Shindekar Pranay Parag",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1094,7 +1062,6 @@
       "name": "Waghmare Kshipra Sarag",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1121,7 +1088,6 @@
       "name": "Deshmukh Dnyanada Pravin",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1148,7 +1114,6 @@
       "name": "Bhendekar Omkar Ramesh",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1175,7 +1140,6 @@
       "name": "Sul Saurabh Kundlik",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1202,7 +1166,6 @@
       "name": "Birajdar Priyanka Dhanraj",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1229,7 +1192,6 @@
       "name": "Ramnani Yash Vinod",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1256,7 +1218,6 @@
       "name": "Pangavhane Om Pramod",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1283,7 +1244,6 @@
       "name": "Ramteke Akanksha Prakash",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1310,7 +1270,6 @@
       "name": "Lohkane Dnyaneshwari Machhindra",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1337,7 +1296,6 @@
       "name": "Waikar Mrudula Mukund",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1364,7 +1322,6 @@
       "name": "Khedkar Pooja Arun",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1391,7 +1348,6 @@
       "name": "Suryawanshi Samiksha Vijayendra",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1418,7 +1374,6 @@
       "name": "Jilhedar Sumedh Sachidanand",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1445,7 +1400,6 @@
       "name": "Pawar Sakshi Anandrao",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1472,7 +1426,6 @@
       "name": "Pawar Soham Santosh",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1499,7 +1452,6 @@
       "name": "Awale Pranav Vijay",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1526,7 +1478,6 @@
       "name": "Jagtap Priya Annasaheb",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1553,7 +1504,6 @@
       "name": "Gandhwale Aarya Bhairavnath",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1580,7 +1530,6 @@
       "name": "Mandot Niti Sachin",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1607,7 +1556,6 @@
       "name": "Tarsekar Sparsh Pankaj",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1634,7 +1582,6 @@
       "name": "Malpani Riti Pankaj",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1661,7 +1608,6 @@
       "name": "Gagare Swarup Dilip",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1688,7 +1634,6 @@
       "name": "Vishwakarma Arun Avdhesh",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1715,7 +1660,6 @@
       "name": "Tejani Shlok Dipen",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1742,7 +1686,6 @@
       "name": "Auti Shrutika Babasaheb",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1769,7 +1712,6 @@
       "name": "Salunke Shivtej Prasad",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1796,7 +1738,6 @@
       "name": "Gambhir Utkarsha Balasaheb",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1823,7 +1764,6 @@
       "name": "Gabhale Darshani Dattatraya",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1850,7 +1790,6 @@
       "name": "Gupta Yashika -",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1877,7 +1816,6 @@
       "name": "Patil Sanskar Sanjay",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1904,7 +1842,6 @@
       "name": "Gaikwad Pranav Sunil",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1931,7 +1868,6 @@
       "name": "Khond Vaishnavi Hanumant",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1958,7 +1894,6 @@
       "name": "Patil Aayusha Anil",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -1985,7 +1920,6 @@
       "name": "Malani Sarthak Santoshkumar",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2012,7 +1946,6 @@
       "name": "Amritkar Ayush Amol",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2039,7 +1972,6 @@
       "name": "Dikkar Shreya Sudhir",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2066,7 +1998,6 @@
       "name": "Patil Lokesh Vilas",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2093,7 +2024,6 @@
       "name": "Andhale Vinayak Namdeorao",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2120,7 +2050,6 @@
       "name": "Wanve Devdatta Hemant",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2147,7 +2076,6 @@
       "name": "Kotalwar Pranav Prafull",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2174,7 +2102,6 @@
       "name": "Patil Harshdeep Dilip",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2201,7 +2128,6 @@
       "name": "Tilwankar Akshar Niteen",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2228,7 +2154,6 @@
       "name": "Patil Avdhut Anil",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2255,7 +2180,6 @@
       "name": "Pawar Tanishka Ajit",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2282,7 +2206,6 @@
       "name": "Fattepurkar Neil Sandeep",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2309,7 +2232,6 @@
       "name": "Lagadive Kunal Bibhishan",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2336,7 +2258,6 @@
       "name": "Bhosale Pranav Sambhaji",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2363,7 +2284,6 @@
       "name": "Gaikwad Abhay Bhagavat",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2390,7 +2310,6 @@
       "name": "Ishi Harsh Rameshwar",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2417,7 +2336,6 @@
       "name": "Chavan Prithviraj Prakash",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2444,7 +2362,6 @@
       "name": "Thorat Ayush Mohan",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2471,7 +2388,6 @@
       "name": "Bacchewar Shrinil Santosh",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2498,7 +2414,6 @@
       "name": "Sinha Chaitanya -",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2525,7 +2440,6 @@
       "name": "Kale Malhar Kiran",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2552,7 +2466,6 @@
       "name": "Zamad Parshva Amol",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2579,7 +2492,6 @@
       "name": "Paygude Kaushal Mandar",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2606,7 +2518,6 @@
       "name": "Tisgaonkar Amey Manish",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2633,7 +2544,6 @@
       "name": "Kad Arya Ganesh",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2660,7 +2570,6 @@
       "name": "Raipure Hardik Manoj",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2687,7 +2596,6 @@
       "name": "Dhide Atharva Rohit",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2714,7 +2622,6 @@
       "name": "Kulkarni Svaraj Sameer",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2741,7 +2648,6 @@
       "name": "Dabi Vedant Gopikrishna",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2768,7 +2674,6 @@
       "name": "Gaikwad Abhishek Goraksha",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2795,7 +2700,6 @@
       "name": "Kapooriya Jay Satyanarayan",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2822,7 +2726,6 @@
       "name": "Bhosale Keval Vikas",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2849,7 +2752,6 @@
       "name": "Raut Aryan Ajit",
       "division": "FY1",
       "div_num": 1,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2876,7 +2778,6 @@
       "name": "Sawant Aarush M.",
       "division": "FY1",
       "div_num": 1,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -2903,7 +2804,6 @@
       "name": "Waghela Aarya M.",
       "division": "FY1",
       "div_num": 1,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -2930,7 +2830,6 @@
       "name": "Patil Aayush V.",
       "division": "FY1",
       "div_num": 1,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -2957,7 +2856,6 @@
       "name": "Raina Tiana -",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -2984,7 +2882,6 @@
       "name": "Mahadik Ved Rajesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3011,7 +2908,6 @@
       "name": "Sharma Achyut -",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3038,7 +2934,6 @@
       "name": "Channa Vaibhav Pramod",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3065,7 +2960,6 @@
       "name": "Shinde Shraddha Vinod",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3092,7 +2986,6 @@
       "name": "Maske Lakshdip Dipak",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3119,7 +3012,6 @@
       "name": "Kunde Pushkar Sunil",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3146,7 +3038,6 @@
       "name": "Solanke Gaytri Dipak",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3173,7 +3064,6 @@
       "name": "Kusalkar Janhavi Dipak",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3200,7 +3090,6 @@
       "name": "Patil Riya Ramesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3227,7 +3116,6 @@
       "name": "Tiwari Harshal Sanjay",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3254,7 +3142,6 @@
       "name": "Bhapkar Siddharth Dattatray",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3281,7 +3168,6 @@
       "name": "Yadav Soham Maruti",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3308,7 +3194,6 @@
       "name": "Karanjkar Varad Shrikant",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3335,7 +3220,6 @@
       "name": "Ghankute Vishakha Jagannath",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3362,7 +3246,6 @@
       "name": "Chaudhari Aditya Ajay",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3389,7 +3272,6 @@
       "name": "Satonkar Shravani Sandeep",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3416,7 +3298,6 @@
       "name": "Pataskar Piyush Pramod",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3443,7 +3324,6 @@
       "name": "Modi Manan Sangit",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3470,7 +3350,6 @@
       "name": "Salve Om Ganesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3497,7 +3376,6 @@
       "name": "Agarwal Mishti -",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3524,7 +3402,6 @@
       "name": "Sapariya Preet Amitkumar",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3551,7 +3428,6 @@
       "name": "Jadhav Omkar Tukaram",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3578,7 +3454,6 @@
       "name": "Dharasurkar Swanand Sunil",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3605,7 +3480,6 @@
       "name": "Nucche Shivhar Gangadhar",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3632,7 +3506,6 @@
       "name": "Shah Soham Rahul",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3659,7 +3532,6 @@
       "name": "Shinde Manshree Sarangdhar",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3686,7 +3558,6 @@
       "name": "Bhanuse Tanvi Ajay",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3713,7 +3584,6 @@
       "name": "Bhande Aryan Vijay",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3740,7 +3610,6 @@
       "name": "Ghatage Harshavardhn -",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3767,7 +3636,6 @@
       "name": "Navale Nishil Namdev",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3794,7 +3662,6 @@
       "name": "Iyer Kaavya Ramanan",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3821,7 +3688,6 @@
       "name": "Satpute Satyam Balasaheb",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3848,7 +3714,6 @@
       "name": "Gholap Chaitanya Ankush",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3875,7 +3740,6 @@
       "name": "Mohite Shravan Yogesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3902,7 +3766,6 @@
       "name": "Gurdham Ritesh -",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3929,7 +3792,6 @@
       "name": "Vairagade Yash Rajkumar",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3956,7 +3818,6 @@
       "name": "Paradkar Aaryan Vishal",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -3983,7 +3844,6 @@
       "name": "Patil Sujal Kundan",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4010,7 +3870,6 @@
       "name": "Patil Mansi Nilesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4037,7 +3896,6 @@
       "name": "Barhate Pragati Shivaji",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4064,7 +3922,6 @@
       "name": "Kulkarni Ishaan Sujit",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4091,7 +3948,6 @@
       "name": "Ruhatiya Raunak Sanjay",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4118,7 +3974,6 @@
       "name": "Jagtap Dhiraj Sanjaykumar",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4145,7 +4000,6 @@
       "name": "Wagh Aditya Surendra",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4172,7 +4026,6 @@
       "name": "Zadke Aditya Balaji",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4199,7 +4052,6 @@
       "name": "Sharma Gitesh Manish",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4226,7 +4078,6 @@
       "name": "Parsawat Ishaan Rajneesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4253,7 +4104,6 @@
       "name": "Lankwade Kshitij Balaji",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4280,7 +4130,6 @@
       "name": "Shah Mithil Vishal",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4307,7 +4156,6 @@
       "name": "Patil Swaraj Kuldip",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4334,7 +4182,6 @@
       "name": "Mangal Swara Gaurav",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4361,7 +4208,6 @@
       "name": "Mehta Pranay Ritesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4388,7 +4234,6 @@
       "name": "Bapat Malhar Harsh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4415,7 +4260,6 @@
       "name": "Gurav Abhishek Suryakant",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4442,7 +4286,6 @@
       "name": "Phadtare Sarthak Vishwas",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4469,7 +4312,6 @@
       "name": "Ghugal Atharva Raju",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4496,7 +4338,6 @@
       "name": "Wasule Swayam Surendra",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4523,7 +4364,6 @@
       "name": "Siddiqui Arham -",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4550,7 +4390,6 @@
       "name": "Tripathi Naveen Neeraj",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4577,7 +4416,6 @@
       "name": "Mangaonkar Vrushabh Mahavir",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4604,7 +4442,6 @@
       "name": "Naik Siddhant Devendra",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4631,7 +4468,6 @@
       "name": "Pote Mayuresh Chandrashekhar",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4658,7 +4494,6 @@
       "name": "Kulkarni Aaditya Amit",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4685,7 +4520,6 @@
       "name": "Talekar Narayan Keshav",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4712,7 +4546,6 @@
       "name": "Terkhedkar Rajas Santosh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4739,7 +4572,6 @@
       "name": "Walde Harshul Yogesh",
       "division": "FY2",
       "div_num": 2,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4766,7 +4598,6 @@
       "name": "Gangan Aishwarya N.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4793,7 +4624,6 @@
       "name": "Faizpurkar Adi A.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4820,7 +4650,6 @@
       "name": "Pujari Ameya J.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4847,7 +4676,6 @@
       "name": "Inamdar Amey A.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4874,7 +4702,6 @@
       "name": "Patidar Ashish M.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4901,7 +4728,6 @@
       "name": "Phad Arnav N.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4928,7 +4754,6 @@
       "name": "Choughule Adi Y.",
       "division": "FY2",
       "div_num": 2,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -4955,7 +4780,6 @@
       "name": "Pandita Akshara -",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -4982,7 +4806,6 @@
       "name": "Agrawal Jiya Pavan",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5009,7 +4832,6 @@
       "name": "Dandawate Eshan Onkar",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5036,7 +4858,6 @@
       "name": "Ulape Vedant Sachin",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5063,7 +4884,6 @@
       "name": "Chavan Swarali Vijay",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5090,7 +4910,6 @@
       "name": "Sonkhaskar Harshit Suresh",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5117,7 +4936,6 @@
       "name": "Dhobale Anushka Anil",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5144,7 +4962,6 @@
       "name": "Bamane Shreyash Rajaram",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5171,7 +4988,6 @@
       "name": "Kadam Samruddhi Pravin",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5198,7 +5014,6 @@
       "name": "Lagad Dip Atul",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5225,7 +5040,6 @@
       "name": "Yadav Varad Gajanan",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5252,7 +5066,6 @@
       "name": "Pimparkar Vrushabh Pradip",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5279,7 +5092,6 @@
       "name": "Misal Aditya Balasaheb",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5306,7 +5118,6 @@
       "name": "Jadhav Aniket Madhav",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5333,7 +5144,6 @@
       "name": "Kale Swamini Kacharu",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5360,7 +5170,6 @@
       "name": "Joshi Shubham Leelaram",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5387,7 +5196,6 @@
       "name": "Sethiya Mohak Kamal",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5414,7 +5222,6 @@
       "name": "Pawar Ankita Anant",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5441,7 +5248,6 @@
       "name": "Shah Kavya Alok",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5468,7 +5274,6 @@
       "name": "Hanpude Tushar Dhanaji",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5495,7 +5300,6 @@
       "name": "Kurane Sanket Avinash",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5522,7 +5326,6 @@
       "name": "Koli Neel Santosh",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5549,7 +5352,6 @@
       "name": "Rahinj Aryan Rajendra",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5576,7 +5378,6 @@
       "name": "Khupse Aniruddh Dattatraya",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5603,7 +5404,6 @@
       "name": "Sawant Piyush Chandrashekhar",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5630,7 +5430,6 @@
       "name": "Akulwad Raj Bhaskar",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5657,7 +5456,6 @@
       "name": "Shaikh Sabeer Shadul",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5684,7 +5482,6 @@
       "name": "Gupta Yajat Vipin",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5711,7 +5508,6 @@
       "name": "Patil Maithili Ajay",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5738,7 +5534,6 @@
       "name": "Khobare Tanmay Deepak",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5765,7 +5560,6 @@
       "name": "Shendage Shriraj Bharat",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5792,7 +5586,6 @@
       "name": "Jadhav Bhagyashri Navnath",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5819,7 +5612,6 @@
       "name": "Aundhekar Soham Govind",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5846,7 +5638,6 @@
       "name": "Kuhikar Lokesh Suraj",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5873,7 +5664,6 @@
       "name": "Korade Manthan Manoj",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5900,7 +5690,6 @@
       "name": "Kultarke Pradney Dhammadip",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5927,7 +5716,6 @@
       "name": "Pawaskar Rutuja Sachin",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5954,7 +5742,6 @@
       "name": "Pitambare Pratyush Bhushan",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -5981,7 +5768,6 @@
       "name": "Shaikh Rehan Shaikh Mumtaz",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6008,7 +5794,6 @@
       "name": "Khan Maazin Ajmal",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6035,7 +5820,6 @@
       "name": "Kamble Ayush Ankush",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6062,7 +5846,6 @@
       "name": "Dusane Rishikesh Jagdish",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6089,7 +5872,6 @@
       "name": "Kandelkar Shlok Mahendra",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6116,7 +5898,6 @@
       "name": "Ubale Shradha Sandip",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6143,7 +5924,6 @@
       "name": "Shilamkar Ayush Vishal",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6170,7 +5950,6 @@
       "name": "Mande Vedant -",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6197,7 +5976,6 @@
       "name": "Burde Chinmay Sanjay",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6224,7 +6002,6 @@
       "name": "Agrawal Anish Kumar",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6251,7 +6028,6 @@
       "name": "Naphade Om Santosh",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6278,7 +6054,6 @@
       "name": "Gumgol Anurag Shivakumar",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6305,7 +6080,6 @@
       "name": "Vannam Darshan Vikrant",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6332,7 +6106,6 @@
       "name": "Arora Nakshatra -",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6359,7 +6132,6 @@
       "name": "Kakade Abhishek Sanjay",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6386,7 +6158,6 @@
       "name": "Karmakar Partha Panchanan",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6413,7 +6184,6 @@
       "name": "Patwardhan Siddharth Nikhil",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6440,7 +6210,6 @@
       "name": "Patil Mrunmay Yashwant",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6467,7 +6236,6 @@
       "name": "Joshi Amogh -",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6494,7 +6262,6 @@
       "name": "Shinde Jiya Kailas",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6521,7 +6288,6 @@
       "name": "Dange Omkar Satish",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6548,7 +6314,6 @@
       "name": "Tilekar Kalpit Balu",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6575,7 +6340,6 @@
       "name": "Kalmegh Mohit Manish",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6602,7 +6366,6 @@
       "name": "Nimbalkar Manthan Kiran",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6629,7 +6392,6 @@
       "name": "Thakre Prathamesh Raju",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6656,7 +6418,6 @@
       "name": "Jagtap Sumedh Nitin",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6683,7 +6444,6 @@
       "name": "Khalid Azmatullah",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6710,7 +6470,6 @@
       "name": "Dhage Soham Sharad",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6737,7 +6496,6 @@
       "name": "Vazarkar Shreyash Manoj",
       "division": "FY3",
       "div_num": 3,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6764,7 +6522,6 @@
       "name": "Pranjale Aryan -.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6791,7 +6548,6 @@
       "name": "Patil Atharva C.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6818,7 +6574,6 @@
       "name": "Kadam Devansh A.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6845,7 +6600,6 @@
       "name": "Shaikh Mohammed Rafaan R.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6872,7 +6626,6 @@
       "name": "Fiske Shrikant S.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6899,7 +6652,6 @@
       "name": "Lokhande Samihan S.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6926,7 +6678,6 @@
       "name": "Raut Gargi K.",
       "division": "FY3",
       "div_num": 3,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -6953,7 +6704,6 @@
       "name": "Sharma Meetali -",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -6980,7 +6730,6 @@
       "name": "Shitole Shantanu Sandeep",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7007,7 +6756,6 @@
       "name": "Kamble Atharva Vinod",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7034,7 +6782,6 @@
       "name": "Autade Shlok Vikas",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7061,7 +6808,6 @@
       "name": "Painjane Keertesh Umakant",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7088,7 +6834,6 @@
       "name": "Gadgil Anjaneya Kaustubh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7115,7 +6860,6 @@
       "name": "Tokekar Ashutosh Dhananjay",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7142,7 +6886,6 @@
       "name": "Tanpure Saksham Ashish",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7169,7 +6912,6 @@
       "name": "Awale Mukta Sadanand",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7196,7 +6938,6 @@
       "name": "Ghodke Appasaheb Namdev",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7223,7 +6964,6 @@
       "name": "Chavhan Tejas Vishwajit",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7250,7 +6990,6 @@
       "name": "Nikam Swarup Anil",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7277,7 +7016,6 @@
       "name": "Kumbhargave Amol Shivaji",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7304,7 +7042,6 @@
       "name": "Kanade Akanksha Sanjay",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7331,7 +7068,6 @@
       "name": "Koul Suvir Sudhir Koul",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7358,7 +7094,6 @@
       "name": "Yadav Vishwajeet Ganesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7385,7 +7120,6 @@
       "name": "Bhosale Kshitij Dhananjay",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7412,7 +7146,6 @@
       "name": "Kumbhar Kshitija Anil",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7439,7 +7172,6 @@
       "name": "Chaudhari Sai Anil",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7466,7 +7198,6 @@
       "name": "Deshmukh Abhishek Dhananjay",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7493,7 +7224,6 @@
       "name": "Deshpande Aaryan Deepak",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7520,7 +7250,6 @@
       "name": "Patil Atharv Dattatray",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7547,7 +7276,6 @@
       "name": "Tambe Shreyas Ravindra",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7574,7 +7302,6 @@
       "name": "Gajwani Tanmay Mukesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7601,7 +7328,6 @@
       "name": "Dole Abhishek Panjabrao",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7628,7 +7354,6 @@
       "name": "Deshmukh Gayatri Govindrao",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7655,7 +7380,6 @@
       "name": "Yadav Prathamesh Shekhar",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7682,7 +7406,6 @@
       "name": "Sonawane Shivam Anil",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7709,7 +7432,6 @@
       "name": "Ravande Bhargav Amol",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7736,7 +7458,6 @@
       "name": "Shinde Aditya Shrikant",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7763,7 +7484,6 @@
       "name": "Jadhav Durva Bhau",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7790,7 +7510,6 @@
       "name": "Kowale Lawanya Dhiraj",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7817,7 +7536,6 @@
       "name": "Dave Shiv Bhargav",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7844,7 +7562,6 @@
       "name": "Satone Sahil Ratnakar",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7871,7 +7588,6 @@
       "name": "Mahulkar Aashay Pramod",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7898,7 +7614,6 @@
       "name": "Thorat Dnyanesh Rajendra",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7925,7 +7640,6 @@
       "name": "Chougale Vijay Sanjay",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7952,7 +7666,6 @@
       "name": "Nagolkar Soham Pramod",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -7979,7 +7692,6 @@
       "name": "Sable Subal Sunil",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8006,7 +7718,6 @@
       "name": "Khandelwal Prameksha Prashant",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8033,7 +7744,6 @@
       "name": "Chavan Yashraj Raju",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8060,7 +7770,6 @@
       "name": "Chandak Shubh Kedar",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8087,7 +7796,6 @@
       "name": "Nikam Shivam Sambhaji",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8114,7 +7822,6 @@
       "name": "Shendge Swayam Santosh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8141,7 +7848,6 @@
       "name": "Gavali Ishaan Rajesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8168,7 +7874,6 @@
       "name": "Gandhi Ishan Vaibhav",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8195,7 +7900,6 @@
       "name": "Harde Krishna Nitin",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8222,7 +7926,6 @@
       "name": "Damodare Neel Raghawendra",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8249,7 +7952,6 @@
       "name": "Mishra Vatsha Rajeshwar",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8276,7 +7978,6 @@
       "name": "Chaudhari Chinmay Swanand",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8303,7 +8004,6 @@
       "name": "Sharma Vansh Rakesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8330,7 +8030,6 @@
       "name": "Jain Neev Jitesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8357,7 +8056,6 @@
       "name": "Gupta Yashraj Omprakash",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8384,7 +8082,6 @@
       "name": "Deosthali Tanishh Shriprasad",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8411,7 +8108,6 @@
       "name": "Nimbore Tanmay Navneet",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8438,7 +8134,6 @@
       "name": "Bajaj Harsh Vinay",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8465,7 +8160,6 @@
       "name": "Shelke Sanskruti Sampat",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8492,7 +8186,6 @@
       "name": "Thorat Amol Namdev",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8519,7 +8212,6 @@
       "name": "Bade Dhruv Milind",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8546,7 +8238,6 @@
       "name": "Tomar Yakshita -",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8573,7 +8264,6 @@
       "name": "Pandav Arnav Yogesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8600,7 +8290,6 @@
       "name": "Jain Ronit Rakesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8627,7 +8316,6 @@
       "name": "Satwik Sumedh Bhalchandra",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8654,7 +8342,6 @@
       "name": "Nakate Harshwardhan Mahesh",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8681,7 +8368,6 @@
       "name": "Kudale Soham Sameer",
       "division": "FY4",
       "div_num": 4,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8708,7 +8394,6 @@
       "name": "Gupta Harshal -.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8735,7 +8420,6 @@
       "name": "Shingate Harsh V.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8762,7 +8446,6 @@
       "name": "Mahajan Aaryan H.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8789,7 +8472,6 @@
       "name": "Bholu Hussain F.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8816,7 +8498,6 @@
       "name": "Jadhav Ishan U.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8843,7 +8524,6 @@
       "name": "Jagtap Ishan N.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8870,7 +8550,6 @@
       "name": "Yadwad Rutvi R.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8897,7 +8576,6 @@
       "name": "Pachori Mokshat -.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8924,7 +8602,6 @@
       "name": "Jakhotiya Priyanka A.",
       "division": "FY4",
       "div_num": 4,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -8951,7 +8628,6 @@
       "name": "Dalotra Nidhi Sanjeev",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -8978,7 +8654,6 @@
       "name": "Dabhade Omkar Vijay",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9005,7 +8680,6 @@
       "name": "Bhagat Mayuresh Mahesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9032,7 +8706,6 @@
       "name": "Chakor Mansi Meghraj",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9059,7 +8732,6 @@
       "name": "Kushal Shruti Dinesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9086,7 +8758,6 @@
       "name": "Kadlag Shravanee Balu",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9113,7 +8784,6 @@
       "name": "Phadtare Sarthak Mukund",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9140,7 +8810,6 @@
       "name": "Khairnar Anushka Dinkar",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9167,7 +8836,6 @@
       "name": "Lohar Raghav Ganesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9194,7 +8862,6 @@
       "name": "Panchlinge Kapil Pandit",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9221,7 +8888,6 @@
       "name": "Waghmare Aditya Mahindra",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9248,7 +8914,6 @@
       "name": "Payas Apoorva Vijay",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9275,7 +8940,6 @@
       "name": "Vora Naitik Atul",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9302,7 +8966,6 @@
       "name": "Harde Akash Sanjay",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9329,7 +8992,6 @@
       "name": "Kumbhare Advay Kiran",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9356,7 +9018,6 @@
       "name": "Nitnaware Sangram Sunil",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9383,7 +9044,6 @@
       "name": "Bhat Vishesh Vikas",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9410,7 +9070,6 @@
       "name": "Shah Shriyan Abhiandan",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9437,7 +9096,6 @@
       "name": "Mule Yashodhan Mahesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9464,7 +9122,6 @@
       "name": "Chavan Pooja Ravi",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9491,7 +9148,6 @@
       "name": "Bhujade Aditya Shivaji",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9518,7 +9174,6 @@
       "name": "Bhattad Samruddhi Pradeep",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9545,7 +9200,6 @@
       "name": "Bharkade Aditi Kailash",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9572,7 +9226,6 @@
       "name": "Chavan Shivam Nilesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9599,7 +9252,6 @@
       "name": "Ladwa Ashiva Hareshiva",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9626,7 +9278,6 @@
       "name": "Nivangune Ved Abhijeet",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9653,7 +9304,6 @@
       "name": "Dahat Shashank Shrikant",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9680,7 +9330,6 @@
       "name": "Gadiya Aryan Uday",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9707,7 +9356,6 @@
       "name": "Nimje Shreyash Pradeep",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9734,7 +9382,6 @@
       "name": "Pawde Atharva Gajanan",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9761,7 +9408,6 @@
       "name": "More Piyush Umesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9788,7 +9434,6 @@
       "name": "Deshpande Farhan Altaf",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9815,7 +9460,6 @@
       "name": "Gote Om Someshwar",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9842,7 +9486,6 @@
       "name": "Komble Kalindi Sachin",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9869,7 +9512,6 @@
       "name": "Tallu Atharva Waman",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9896,7 +9538,6 @@
       "name": "Shinde Pratik Dilip",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9923,7 +9564,6 @@
       "name": "Rajesh Vansh Vijay",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9950,7 +9590,6 @@
       "name": "Yadav Atharv Vijay",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -9977,7 +9616,6 @@
       "name": "Orpe Pushkar Dheeraj",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10004,7 +9642,6 @@
       "name": "Usaid Farooqui Mohammed",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10031,7 +9668,6 @@
       "name": "Charla Navya Mahendra",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10058,7 +9694,6 @@
       "name": "Patil Vitthal Maruti",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10085,7 +9720,6 @@
       "name": "Shinde Aniket Shamrao",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10112,7 +9746,6 @@
       "name": "Dagade Aryan Dattatray",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10139,7 +9772,6 @@
       "name": "Pampatwar Ameya Navnath",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10166,7 +9798,6 @@
       "name": "Dahitode Shubhankar Mahesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10193,7 +9824,6 @@
       "name": "Nevrekar Shreyas Shailesh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10220,7 +9850,6 @@
       "name": "Joshi Nishant Pradeep",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10247,7 +9876,6 @@
       "name": "Deshmukh Atharv Vasant",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10274,7 +9902,6 @@
       "name": "Mishra Aarambh -",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10301,7 +9928,6 @@
       "name": "Pai Samay Satish",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10328,7 +9954,6 @@
       "name": "Harshey Madhav Manish",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10355,7 +9980,6 @@
       "name": "Chincholkar Bhargavram Gajanan",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10382,7 +10006,6 @@
       "name": "Soni Kushagra Santosh",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10409,7 +10032,6 @@
       "name": "Paranjape Sumedh Ajit",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10436,7 +10058,6 @@
       "name": "Jadhav Parth Sudhakar",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10463,7 +10084,6 @@
       "name": "Soni Maitreya Prasad",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10490,7 +10110,6 @@
       "name": "Tapas Shantanu Sujit",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10517,7 +10136,6 @@
       "name": "Mane Hrishikesh Shankar",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10544,7 +10162,6 @@
       "name": "Kalantri Ved Sagar",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10571,7 +10188,6 @@
       "name": "Khan Nuh Naushad",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10598,7 +10214,6 @@
       "name": "Shinde Sarth Anil",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10625,7 +10240,6 @@
       "name": "Kadam Advay Ameet",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10652,7 +10266,6 @@
       "name": "Deshmukh Ruturaj Sandip",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10679,7 +10292,6 @@
       "name": "Karande Rutuja Parmeshwar",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10706,7 +10318,6 @@
       "name": "Raut Manthan Deepak",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10733,7 +10344,6 @@
       "name": "Mahajan Kanishka Sandip",
       "division": "FY5",
       "div_num": 5,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10760,7 +10370,6 @@
       "name": "Walchale Drishti V.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10787,7 +10396,6 @@
       "name": "Pujari Kaushal K.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10814,7 +10422,6 @@
       "name": "Patidar Kavya D.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10841,7 +10448,6 @@
       "name": "Kolhe Vidhi H.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10868,7 +10474,6 @@
       "name": "Kothari Rashi S.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10895,7 +10500,6 @@
       "name": "Mahamuni Priyal P.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10922,7 +10526,6 @@
       "name": "Sharma Soumya S.",
       "division": "FY5",
       "div_num": 5,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -10949,7 +10552,6 @@
       "name": "Patil Jayraj Sanjay",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -10976,7 +10578,6 @@
       "name": "Joshi Chinmay Vishwas",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11003,7 +10604,6 @@
       "name": "Ware Sharvil Santaji",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11030,7 +10630,6 @@
       "name": "Chavan Pruthviraj Vijay",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11057,7 +10656,6 @@
       "name": "Khose Avadut Satish",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11084,7 +10682,6 @@
       "name": "Chaudhari Tunav Bipinchandra",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11111,7 +10708,6 @@
       "name": "Sarda Rajeshwari Amit",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11138,7 +10734,6 @@
       "name": "More Ajinkya Sarjerao",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11165,7 +10760,6 @@
       "name": "Gaikwad Shubham Rajaram",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11192,7 +10786,6 @@
       "name": "Magdum Dhanveer Kedarnath",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11219,7 +10812,6 @@
       "name": "Mangire Gauri Rajesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11246,7 +10838,6 @@
       "name": "Kahar Sharvari Rahul",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11273,7 +10864,6 @@
       "name": "Tak Tushar Idaram",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11300,7 +10890,6 @@
       "name": "Mohatewar Palak Deepak",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11327,7 +10916,6 @@
       "name": "Kolavale Adarsh Nitin",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11354,7 +10942,6 @@
       "name": "Mehare Atharva Nilesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11381,7 +10968,6 @@
       "name": "Rawal Aarush -",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11408,7 +10994,6 @@
       "name": "Pahukar Riddhi Manoj",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11435,7 +11020,6 @@
       "name": "Kulthe Janhavi Sandeep",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11462,7 +11046,6 @@
       "name": "Patel Vedang Sarvesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11489,7 +11072,6 @@
       "name": "Yashwant Rugved Subhash",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11516,7 +11098,6 @@
       "name": "Kolhe Kaustubh Umesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11543,7 +11124,6 @@
       "name": "Birajdar Harshwardhan Yogesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11570,7 +11150,6 @@
       "name": "Nanwatkar Heena Mukesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11597,7 +11176,6 @@
       "name": "Sonawane Shubham Rahulkumar",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11624,7 +11202,6 @@
       "name": "Rao Hrishikesh Raviraj",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11651,7 +11228,6 @@
       "name": "Mankape Vivek Sanjay",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11678,7 +11254,6 @@
       "name": "Jaiswal Sanket Pramod",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11705,7 +11280,6 @@
       "name": "Sonavane Pranjal Vishnu",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11732,7 +11306,6 @@
       "name": "Dulange Adarsh Prashant",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11759,7 +11332,6 @@
       "name": "Mahajan Vedant Yuvraj",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11786,7 +11358,6 @@
       "name": "Jadhav Diksha Ankush",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11813,7 +11384,6 @@
       "name": "Shambharkar Aditya Tarachand",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11840,7 +11410,6 @@
       "name": "Satpute Sarthak Balasaheb",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11867,7 +11436,6 @@
       "name": "Sudrik Pruthvi Devidas",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11894,7 +11462,6 @@
       "name": "Kumbhar Krushna Sachin",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11921,7 +11488,6 @@
       "name": "Kabade Krishnai Sunil",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11948,7 +11514,6 @@
       "name": "Mangrulkar Sharvari Vinit",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -11975,7 +11540,6 @@
       "name": "Giram Adwait Nitin",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12002,7 +11566,6 @@
       "name": "Pote Utkarsh Navnath",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12029,7 +11592,6 @@
       "name": "Sarang Sayali Vikram",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12056,7 +11618,6 @@
       "name": "Wakde Chhagan Sanjay",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12083,7 +11644,6 @@
       "name": "Patil Samarth Ajit",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12110,7 +11670,6 @@
       "name": "Chidrawar Om Sudhir",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12137,7 +11696,6 @@
       "name": "Mhaisane Aditya Nilesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12164,7 +11722,6 @@
       "name": "Zirpe Aarush Umesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12191,7 +11748,6 @@
       "name": "Sonawane Aashay Sandeep",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12218,7 +11774,6 @@
       "name": "Kalne Nishad Chandrashekhar",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12245,7 +11800,6 @@
       "name": "Pitake Sarthak Surendra",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12272,7 +11826,6 @@
       "name": "Morey Ishant Ajay",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12299,7 +11852,6 @@
       "name": "Bhelonde Jayesh Jagdish",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12326,7 +11878,6 @@
       "name": "Phavade Avaneesh Sachin",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12353,7 +11904,6 @@
       "name": "Bhosale Sanket Mahadeo",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12380,7 +11930,6 @@
       "name": "Butani Daksh Viralkumar",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12407,7 +11956,6 @@
       "name": "Dhage Darshan Sandeep",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12434,7 +11982,6 @@
       "name": "Gupta Ahana Satyen",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12461,7 +12008,6 @@
       "name": "Ghuge Gargi Dhananjay",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12488,7 +12034,6 @@
       "name": "Aute Omkar Attam",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12515,7 +12060,6 @@
       "name": "Gulhane Kaustubh Kailash",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12542,7 +12086,6 @@
       "name": "Joshi Ishan Venkatesh",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12569,7 +12112,6 @@
       "name": "Puri Manoj Girdhari",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12596,7 +12138,6 @@
       "name": "Salunkhe Shlok Rahul",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12623,7 +12164,6 @@
       "name": "Pujari Swajit -",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12650,7 +12190,6 @@
       "name": "Ital Prasanna Pramod",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12677,7 +12216,6 @@
       "name": "Kokate Aditya Chandrakant",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12704,7 +12242,6 @@
       "name": "Patle Girish Shivanand",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12731,7 +12268,6 @@
       "name": "Jamkar Soham Deepak",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12758,7 +12294,6 @@
       "name": "Patil Aayush Vikram",
       "division": "FY6",
       "div_num": 6,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12785,7 +12320,6 @@
       "name": "Bhaila Mustafa -.",
       "division": "FY6",
       "div_num": 6,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -12812,7 +12346,6 @@
       "name": "Yadav Nikhil Kumar J.",
       "division": "FY6",
       "div_num": 6,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -12839,7 +12372,6 @@
       "name": "Kasar Om D.",
       "division": "FY6",
       "div_num": 6,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -12866,7 +12398,6 @@
       "name": "Chavan Sharvari U.",
       "division": "FY6",
       "div_num": 6,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -12893,7 +12424,6 @@
       "name": "Baderia Aditya -.",
       "division": "FY6",
       "div_num": 6,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -12920,7 +12450,6 @@
       "name": "Raibagkar Shamali Prasad",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12947,7 +12476,6 @@
       "name": "Wawalkar Rohan Rajabhau",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -12974,7 +12502,6 @@
       "name": "Tekade Arnav Surendra",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13001,7 +12528,6 @@
       "name": "Patodkar Ronit Ravindra",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13028,7 +12554,6 @@
       "name": "Pathare Hridhikesh Nilesh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13055,7 +12580,6 @@
       "name": "Gavit Ayush Yashwant",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13082,7 +12606,6 @@
       "name": "Mulla Junaid Bashir",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13109,7 +12632,6 @@
       "name": "Kadam Abhinav Sushil",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13136,7 +12658,6 @@
       "name": "Jadhav Neha Dhanaji",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13163,7 +12684,6 @@
       "name": "Lad Ojas Navnath",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13190,7 +12710,6 @@
       "name": "Satpute Sahil Balkrushna",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13217,7 +12736,6 @@
       "name": "Bhapkar Pranav Sanjay",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13244,7 +12762,6 @@
       "name": "Gunjal Tejash Manjabapu",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13271,7 +12788,6 @@
       "name": "Bhure Shradhey Dhansing",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13298,7 +12814,6 @@
       "name": "Wakchaure Prathamesh Sandeep",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13325,7 +12840,6 @@
       "name": "Menkale Akshata Shivshakar",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13352,7 +12866,6 @@
       "name": "Joshi Aarya Manish",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13379,7 +12892,6 @@
       "name": "Waghmare Anushka Dattatraya",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13406,7 +12918,6 @@
       "name": "Mali Tejas Rohit",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13433,7 +12944,6 @@
       "name": "Khokle Yashshri Sandip",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13460,7 +12970,6 @@
       "name": "Agrawal Tanmay Sachin",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13487,7 +12996,6 @@
       "name": "Ruighare Avantika Sadashiv",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13514,7 +13022,6 @@
       "name": "Jadhav Aditya Ratnakar",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13541,7 +13048,6 @@
       "name": "Pensalwar Swara Nilesh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13568,7 +13074,6 @@
       "name": "Nevagire Prathamesh Ramchandra",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13595,7 +13100,6 @@
       "name": "Patil Swaroop Parshuram",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13622,7 +13126,6 @@
       "name": "Choudhary Shashwat -",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13649,7 +13152,6 @@
       "name": "Kanchangire Om Prashant",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13676,7 +13178,6 @@
       "name": "Pawar Aryan Dattatray",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13703,7 +13204,6 @@
       "name": "Ghayal Dhiraj Wasudeo",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13730,7 +13230,6 @@
       "name": "Dhote Yash Digambar",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13757,7 +13256,6 @@
       "name": "Kasat Raj Vaibhav",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13784,7 +13282,6 @@
       "name": "Tidake Prathmesh Dnyaneshwar",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13811,7 +13308,6 @@
       "name": "Tarale Shashwat Prakash",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13838,7 +13334,6 @@
       "name": "Kuldharan Shivam Yogesh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13865,7 +13360,6 @@
       "name": "Kulkarni Soham Milind",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13892,7 +13386,6 @@
       "name": "Chavan Prasad Gajanan",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13919,7 +13412,6 @@
       "name": "Bhagat Deep Sanjay",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13946,7 +13438,6 @@
       "name": "Gapat Updesh Suhas",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -13973,7 +13464,6 @@
       "name": "Achalkhamb Pranjal Suresh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14000,7 +13490,6 @@
       "name": "Jadhav Shivam Prashant",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14027,7 +13516,6 @@
       "name": "Dhotre Aryan Sanjay",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14054,7 +13542,6 @@
       "name": "Patil Suhas Prabhakar",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14081,7 +13568,6 @@
       "name": "Patil Sujal Jayavant",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14108,7 +13594,6 @@
       "name": "Latke Ojas Vishal",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14135,7 +13620,6 @@
       "name": "Sonawane Piyush Satish",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14162,7 +13646,6 @@
       "name": "Narkhede Yadnyesh Pradeep",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14189,7 +13672,6 @@
       "name": "Chintalwar Shreyash Santosh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14216,7 +13698,6 @@
       "name": "Jain Krish Manoj",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14243,7 +13724,6 @@
       "name": "Gawade Omkar Kishor",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14270,7 +13750,6 @@
       "name": "Thakuria Dakksh Thakuria Piyush",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14297,7 +13776,6 @@
       "name": "Ramani Khevna Bharat",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14324,7 +13802,6 @@
       "name": "Raut Amrut Haribhau",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14351,7 +13828,6 @@
       "name": "Kulkarni Ram Vikram",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14378,7 +13854,6 @@
       "name": "Fale Chaitanya Rajesh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14405,7 +13880,6 @@
       "name": "Deshpande Soham Prashant",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14432,7 +13906,6 @@
       "name": "Vighnay Aditya Suniiel",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14459,7 +13932,6 @@
       "name": "Jain Ishan Ashish",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14486,7 +13958,6 @@
       "name": "Dahe Tushar Bhausaheb",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14513,7 +13984,6 @@
       "name": "Shinde Viraj Dilip",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14540,7 +14010,6 @@
       "name": "Deokate Antriksh Suresh",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14567,7 +14036,6 @@
       "name": "Gai Pratik Kishor",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14594,7 +14062,6 @@
       "name": "Sathe Shardul Sachin",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14621,7 +14088,6 @@
       "name": "Ghanekar Gaurang -",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14648,7 +14114,6 @@
       "name": "Agrawal Prerit Sachin",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14675,7 +14140,6 @@
       "name": "Lingayat Varad Sanjay",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14702,7 +14166,6 @@
       "name": "Mandge Vedanta Sandeep",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14729,7 +14192,6 @@
       "name": "Agrawal Palak Ashish",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14756,7 +14218,6 @@
       "name": "Kulkarni Devansh Dilipkumar",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14783,7 +14244,6 @@
       "name": "Zambare Vedant Rahul",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14810,7 +14270,6 @@
       "name": "Sharma Yuval -",
       "division": "FY7",
       "div_num": 7,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14837,7 +14296,6 @@
       "name": "Pawar Om K.",
       "division": "FY7",
       "div_num": 7,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -14864,7 +14322,6 @@
       "name": "Pethe Piyush S.",
       "division": "FY7",
       "div_num": 7,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -14891,7 +14348,6 @@
       "name": "Khan Abdul Rahman F.",
       "division": "FY7",
       "div_num": 7,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -14918,7 +14374,6 @@
       "name": "Gawade Arnav Ramesh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14945,7 +14400,6 @@
       "name": "Choukade Sarthak Vijay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14972,7 +14426,6 @@
       "name": "Marathe Harshvardhan Praveen",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -14999,7 +14452,6 @@
       "name": "Agrawaal Bhavya Vishal",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15026,7 +14478,6 @@
       "name": "Patil Siddharth Milind",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15053,7 +14504,6 @@
       "name": "Thombare Sanskar Sanjay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15080,7 +14530,6 @@
       "name": "Patil Ayusha Maheshkumar",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15107,7 +14556,6 @@
       "name": "Madane Yash Ram",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15134,7 +14582,6 @@
       "name": "Ganjave Swara Vaibhav",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15161,7 +14608,6 @@
       "name": "Kate Tejas Ghanhshyam",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15188,7 +14634,6 @@
       "name": "Ansari Mohammed Hamzah Ghazanfar",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15215,7 +14660,6 @@
       "name": "Barhate Shreya Vilas",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15242,7 +14686,6 @@
       "name": "Das Reek Tarun Kumar",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15269,7 +14712,6 @@
       "name": "Tiwari Nikunj Ajay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15296,7 +14738,6 @@
       "name": "Fadnavis Sarthak Tushar",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15323,7 +14764,6 @@
       "name": "Ingale Arnav Balkrishna",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15350,7 +14790,6 @@
       "name": "Omase Shrijit Tatyasaheb",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15377,7 +14816,6 @@
       "name": "Kalkhaire Shreyash Vijay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15404,7 +14842,6 @@
       "name": "Jadhav Abhishek Prakash",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15431,7 +14868,6 @@
       "name": "Mahajan Bhumika Tejpal",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15458,7 +14894,6 @@
       "name": "Raut Harshvardhan Gorakshnath",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15485,7 +14920,6 @@
       "name": "Khatal Kshitij Bhagwat",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15512,7 +14946,6 @@
       "name": "Khirade Prachi Mahendra",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15539,7 +14972,6 @@
       "name": "Chudasama Kruti Jayesh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15566,7 +14998,6 @@
       "name": "Gudekar Manas Manoj",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15593,7 +15024,6 @@
       "name": "Patil Vighnesh -",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15620,7 +15050,6 @@
       "name": "Gaikwad Ayush Shyam",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15647,7 +15076,6 @@
       "name": "Shaikh Aman Raju",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15674,7 +15102,6 @@
       "name": "Patil Sumit Pandharinath",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15701,7 +15128,6 @@
       "name": "Mankar Nidhi Rajesh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15728,7 +15154,6 @@
       "name": "Zadbuke Sarthak Sachin",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15755,7 +15180,6 @@
       "name": "Dol Manmayee Parag",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15782,7 +15206,6 @@
       "name": "Patil Vedant Sachin",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15809,7 +15232,6 @@
       "name": "Mahajan Aditya Sachin",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15836,7 +15258,6 @@
       "name": "Dedhia Neev Bhavin",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15863,7 +15284,6 @@
       "name": "Nagne Yash Suhas",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15890,7 +15310,6 @@
       "name": "Ingole Prathamesh Dhananjay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15917,7 +15336,6 @@
       "name": "Saste Sarth Chandrakant",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15944,7 +15362,6 @@
       "name": "Agrawal Bhumika Yogesh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15971,7 +15388,6 @@
       "name": "Wadkar Shritesh Deepak",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -15998,7 +15414,6 @@
       "name": "Mantri Riya Govind",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16025,7 +15440,6 @@
       "name": "Chandak Manav Deepak",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16052,7 +15466,6 @@
       "name": "Bharmal Shreya Mohan",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16079,7 +15492,6 @@
       "name": "Malpani Tanish Laxmikant",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16106,7 +15518,6 @@
       "name": "Surve Ayaan Abdulaziz",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16133,7 +15544,6 @@
       "name": "Kompalwar Sankalp Santosh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16160,7 +15570,6 @@
       "name": "Tawarej Soham Prashant",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16187,7 +15596,6 @@
       "name": "Deole Samihan Anand",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16214,7 +15622,6 @@
       "name": "Pathare Spandan Pradeep",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16241,7 +15648,6 @@
       "name": "Patil Siddhant Sachin",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16268,7 +15674,6 @@
       "name": "Bhopale Ayush Raju",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16295,7 +15700,6 @@
       "name": "Varpe Soham Ashok",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16322,7 +15726,6 @@
       "name": "Kirange Harsh Sanjay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16349,7 +15752,6 @@
       "name": "Bhide Sarvesh Sandeep",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16376,7 +15778,6 @@
       "name": "Modi Aadish Nikhil",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16403,7 +15804,6 @@
       "name": "Sawant Pranav Madhukar",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16430,7 +15830,6 @@
       "name": "Shelke Vallabh Ramesh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16457,7 +15856,6 @@
       "name": "Nandanwar Devansh Vijay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16484,7 +15882,6 @@
       "name": "Parmar Sandesh Santosh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16511,7 +15908,6 @@
       "name": "Namde Samarth Mahesh",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16538,7 +15934,6 @@
       "name": "Garje Omkar Keshav",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16565,7 +15960,6 @@
       "name": "Thombre Krushna Ashok",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16592,7 +15986,6 @@
       "name": "Waghmare Poonam Sanjay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16619,7 +16012,6 @@
       "name": "Borade Vedant Sukdev",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16646,7 +16038,6 @@
       "name": "Bagade Arya Anant",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16673,7 +16064,6 @@
       "name": "Sawal Adwait Baburao",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16700,7 +16090,6 @@
       "name": "Savarat Siddhant Ajay",
       "division": "FY8",
       "div_num": 8,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16727,7 +16116,6 @@
       "name": "Dhunware Rayyan R.",
       "division": "FY8",
       "div_num": 8,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -16754,7 +16142,6 @@
       "name": "Shaikh Aryaan R.",
       "division": "FY8",
       "div_num": 8,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -16781,7 +16168,6 @@
       "name": "Patil Eva R.",
       "division": "FY8",
       "div_num": 8,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -16808,7 +16194,6 @@
       "name": "Chipolkar Rumana Y.",
       "division": "FY8",
       "div_num": 8,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -16835,7 +16220,6 @@
       "name": "Jamadar Saad I.",
       "division": "FY8",
       "div_num": 8,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -16862,7 +16246,6 @@
       "name": "Malgundkar Sahil S.",
       "division": "FY8",
       "div_num": 8,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -16889,7 +16272,6 @@
       "name": "Mangrulkar Aditya Atul",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16916,7 +16298,6 @@
       "name": "Mali Ritesh Ramesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16943,7 +16324,6 @@
       "name": "Nikam Shlok Yogesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16970,7 +16350,6 @@
       "name": "Ahmed Uzair Musheer",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -16997,7 +16376,6 @@
       "name": "Aiwale Akash Janardhan",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17024,7 +16402,6 @@
       "name": "Kale Shital Dilip",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17051,7 +16428,6 @@
       "name": "Bhandare Vivek Navnath",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17078,7 +16454,6 @@
       "name": "Waikar Bushara Abdul Munaf",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17105,7 +16480,6 @@
       "name": "Varma Vishal Chandraprakash",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17132,7 +16506,6 @@
       "name": "Doifode Sanika Shankar",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17159,7 +16532,6 @@
       "name": "Pande Piyush Ravi",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17186,7 +16558,6 @@
       "name": "Padghan Yash Pravin",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17213,7 +16584,6 @@
       "name": "Nanavare Anushka Balkrushna",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17240,7 +16610,6 @@
       "name": "Mulani Rihan Adam",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17267,7 +16636,6 @@
       "name": "Lohave Sagar Nitin",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17294,7 +16662,6 @@
       "name": "Jaiswal Radha Vinay",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17321,7 +16688,6 @@
       "name": "Chavan Sakshi Prakash",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17348,7 +16714,6 @@
       "name": "Bhogale Adarsh Mukund",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17375,7 +16740,6 @@
       "name": "Bhosle Harshvardhan Venkat",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17402,7 +16766,6 @@
       "name": "Kamane Pranav Popat",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17429,7 +16792,6 @@
       "name": "Shinde Sarthak Kailas",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17456,7 +16818,6 @@
       "name": "Nagpure Shravani Pravin",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17483,7 +16844,6 @@
       "name": "Chounde Vedant Shivkumar",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17510,7 +16870,6 @@
       "name": "Hidaduge Tanaya Shivputra",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17537,7 +16896,6 @@
       "name": "Rao K Satvic -",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17564,7 +16922,6 @@
       "name": "Bhandare Tanmay Gurudatta",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17591,7 +16948,6 @@
       "name": "Padir Sarthak Sitaram",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17618,7 +16974,6 @@
       "name": "Raghatwan Aryan Vijay",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17645,7 +17000,6 @@
       "name": "Mugdal Pranav Sudhakar",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17672,7 +17026,6 @@
       "name": "Pawar Vishwajeet Babasaheb",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17699,7 +17052,6 @@
       "name": "Gholkar Arnav Abhijeet",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17726,7 +17078,6 @@
       "name": "Kelkar Rajas Yogesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17753,7 +17104,6 @@
       "name": "Lagad Dron Purushottam",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17780,7 +17130,6 @@
       "name": "Duraphe Ishaan Abhijit",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17807,7 +17156,6 @@
       "name": "Shinde Yash Pravin",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17834,7 +17182,6 @@
       "name": "Kute Shreyash Tukaram",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17861,7 +17208,6 @@
       "name": "Durepatil Ranveer Vithal",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17888,7 +17234,6 @@
       "name": "Kather Onkar Ganesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17915,7 +17260,6 @@
       "name": "Dhamal Sujal Sikandar",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17942,7 +17286,6 @@
       "name": "Sokashe Manthan Ravikiran",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17969,7 +17312,6 @@
       "name": "Joshi Nihar Prasad",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -17996,7 +17338,6 @@
       "name": "Sonkamble Siddhant Kishan",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18023,7 +17364,6 @@
       "name": "Repale Yash Arun",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18050,7 +17390,6 @@
       "name": "Gade Pearl Nilesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18077,7 +17416,6 @@
       "name": "Patwe Niesh Shankar",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18104,7 +17442,6 @@
       "name": "Sharma Aachintya Ashish",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18131,7 +17468,6 @@
       "name": "Tope Samiksha Pandit",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18158,7 +17494,6 @@
       "name": "Mohril Shubham Pravin",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18185,7 +17520,6 @@
       "name": "Patel Pragya -",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18212,7 +17546,6 @@
       "name": "Bhutada Piyush Harish",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18239,7 +17572,6 @@
       "name": "Singh Aryash Manoj",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18266,7 +17598,6 @@
       "name": "Khune Shivam Dipak",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18293,7 +17624,6 @@
       "name": "Sampagaonkar Atharva Sudhir",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18320,7 +17650,6 @@
       "name": "Deshpande Atharva Abhiram",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18347,7 +17676,6 @@
       "name": "Ghate Nirbhay Kishor",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18374,7 +17702,6 @@
       "name": "Ekade Sarthak Aanata",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18401,7 +17728,6 @@
       "name": "Patil Aditya Kantilal",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18428,7 +17754,6 @@
       "name": "Kumar Akshat Shailendra",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18455,7 +17780,6 @@
       "name": "Alone Sara Dinesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18482,7 +17806,6 @@
       "name": "More Aryan Chhayendra",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18509,7 +17832,6 @@
       "name": "Kokode Lucky Hemant",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18536,7 +17858,6 @@
       "name": "Rajani Puneet Haresh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18563,7 +17884,6 @@
       "name": "Tambade Aryan Shashikant",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18590,7 +17910,6 @@
       "name": "Porwal Aayush Shailesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18617,7 +17936,6 @@
       "name": "Borde Viraj Sunil",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18644,7 +17962,6 @@
       "name": "Rawate Sanved Sachin Rawate Sachin",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18671,7 +17988,6 @@
       "name": "Kumbhare Om Mahesh",
       "division": "FY9",
       "div_num": 9,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18698,7 +18014,6 @@
       "name": "Karade Eashan S.",
       "division": "FY9",
       "div_num": 9,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -18725,7 +18040,6 @@
       "name": "Raj Sahil -.",
       "division": "FY9",
       "div_num": 9,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -18752,7 +18066,6 @@
       "name": "Yadav Samarth S.",
       "division": "FY9",
       "div_num": 9,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -18779,7 +18092,6 @@
       "name": "Sarnaik Shaunak S.",
       "division": "FY9",
       "div_num": 9,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -18806,7 +18118,6 @@
       "name": "Neog Samudra S.",
       "division": "FY9",
       "div_num": 9,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -18829,11 +18140,10 @@
     },
     {
       "roll_no": 10973,
-      "mis_id": "NRI-10973",
+      "mis_id": "F2610973",
       "name": "Shetty Parinith",
       "division": "FY9",
       "div_num": 9,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -18860,7 +18170,6 @@
       "name": "Upasani Shreeneel Deepak",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18887,7 +18196,6 @@
       "name": "Khan Mohammad Aarim Shahjad",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18914,7 +18222,6 @@
       "name": "Humbad Radhika Nitinrao",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18941,7 +18248,6 @@
       "name": "Sonawane Vedant Sunil",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18968,7 +18274,6 @@
       "name": "Bedwal Isha Bhagwansing",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -18995,7 +18300,6 @@
       "name": "Pardeshi Sai Vijay",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19022,7 +18326,6 @@
       "name": "Pimple Shubham Rangrao",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19049,7 +18352,6 @@
       "name": "Chaudhari Samir Dilip",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19076,7 +18378,6 @@
       "name": "Dhere Ojas Devendra",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19103,7 +18404,6 @@
       "name": "Pawar Harshali Bramhadev",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19130,7 +18430,6 @@
       "name": "Navghare Devyani Sachin",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19157,7 +18456,6 @@
       "name": "Nimgaonkar Gauri Diliprao",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19184,7 +18482,6 @@
       "name": "Ugale Dhanraj Bhagwat",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19211,7 +18508,6 @@
       "name": "Vibhute Kedar Nagesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19238,7 +18534,6 @@
       "name": "Pimparwar Sumedh Mahesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19265,7 +18560,6 @@
       "name": "Bibave Sarthak Nilesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19292,7 +18586,6 @@
       "name": "Dhande Ishwari Milind",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19319,7 +18612,6 @@
       "name": "Bhutada Palak Dinesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19346,7 +18638,6 @@
       "name": "Sardar Swaraj Narayan",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19373,7 +18664,6 @@
       "name": "Hanmantkar Somnath Ramchandra",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19400,7 +18690,6 @@
       "name": "Shrirao Parth Vinod",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19427,7 +18716,6 @@
       "name": "Kondawar Vaishnavi Narsimlu",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19454,7 +18742,6 @@
       "name": "Nimbalkar Vedant Sunil",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19481,7 +18768,6 @@
       "name": "Chavare Shreya Vilas",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19508,7 +18794,6 @@
       "name": "Deshmane Manthan Rahul",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19535,7 +18820,6 @@
       "name": "Dhumal Atharv Rahul",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19562,7 +18846,6 @@
       "name": "Jagtap Mrunal Ganesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19589,7 +18872,6 @@
       "name": "Sonawane Tanishqa Parag",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19616,7 +18898,6 @@
       "name": "Mali Avanish Sudhir",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19643,7 +18924,6 @@
       "name": "Adsul Pankaj Ashok",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19670,7 +18950,6 @@
       "name": "Chaudhari Krisha Amol",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19697,7 +18976,6 @@
       "name": "Pawar Aryan Vinod",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19724,7 +19002,6 @@
       "name": "Deshmukh Ameya Sachin",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19751,7 +19028,6 @@
       "name": "Salunkhe Aroosh Samir",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19778,7 +19054,6 @@
       "name": "Gadewar Suyash Chandrashekhar",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19805,7 +19080,6 @@
       "name": "Antre Tejas Pradip",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19832,7 +19106,6 @@
       "name": "Waghmare Aditya Digambar",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19859,7 +19132,6 @@
       "name": "Shingare Akash Sachin",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19886,7 +19158,6 @@
       "name": "Tare Vyankatesh Vijaykumar",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19913,7 +19184,6 @@
       "name": "Magdum Prathamesh Sunil",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19940,7 +19210,6 @@
       "name": "Bagde Anshul Preetam",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19967,7 +19236,6 @@
       "name": "Nagargoje Atharva Bapusaheb",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -19994,7 +19262,6 @@
       "name": "Patil Suchira Jagdish",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20021,7 +19288,6 @@
       "name": "Patil Siddhi Shantishwar",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20048,7 +19314,6 @@
       "name": "Ingole Harsh Sanjay",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20075,7 +19340,6 @@
       "name": "Wagh Abhinav Ishwar",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20102,7 +19366,6 @@
       "name": "Malekar Parth Baban",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20129,7 +19392,6 @@
       "name": "Sanglikar Pruthu Atul",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20156,7 +19418,6 @@
       "name": "Pachpute Anushka Santosh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20183,7 +19444,6 @@
       "name": "Patankar Yash Umesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20210,7 +19470,6 @@
       "name": "Khendke Tanmay Bhaskar",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20237,7 +19496,6 @@
       "name": "Govindani Parth Vikram",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20264,7 +19522,6 @@
       "name": "Dhorje Atharva Sachin",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20291,7 +19548,6 @@
       "name": "Shinde Gaurav Vijay",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20318,7 +19574,6 @@
       "name": "Singh Ishita -",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20345,7 +19600,6 @@
       "name": "Lad Aaditya Laxmikant",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20372,7 +19626,6 @@
       "name": "Sharma Sidhant Mukesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20399,7 +19652,6 @@
       "name": "Thakare Neeraj Ravindra",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20426,7 +19678,6 @@
       "name": "Parade Saket Jaysing",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20453,7 +19704,6 @@
       "name": "Sawant Kaustubh Subhash",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20480,7 +19730,6 @@
       "name": "Mustikar Aaditya Mukul",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20507,7 +19756,6 @@
       "name": "Nadare Arnav Manikrao",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20534,7 +19782,6 @@
       "name": "Musmade Shubham Arun",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20561,7 +19808,6 @@
       "name": "Talware Dhruv Nandlal",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20588,7 +19834,6 @@
       "name": "Naghate Jay Rajesh",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20615,7 +19860,6 @@
       "name": "Khobragade Mithil Rahul",
       "division": "FY10",
       "div_num": 10,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20642,7 +19886,6 @@
       "name": "Mulay Shreeya N.",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20665,11 +19908,10 @@
     },
     {
       "roll_no": 11068,
-      "mis_id": "NRI-11068",
+      "mis_id": "F2611068",
       "name": "Patil Shreyas Dhanraj",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20696,7 +19938,6 @@
       "name": "Apte Shubhan R.",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20723,7 +19964,6 @@
       "name": "Siddarth Ammanath",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20750,7 +19990,6 @@
       "name": "Patil Siddhi P.",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20777,7 +20016,6 @@
       "name": "Chavan Srushti S.",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20804,7 +20042,6 @@
       "name": "Rudagi Aadi S.",
       "division": "FY10",
       "div_num": 10,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -20831,7 +20068,6 @@
       "name": "Kolurkar Aanjani Bhalchandra",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20858,7 +20094,6 @@
       "name": "Tathed Parshv Nitin",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20885,7 +20120,6 @@
       "name": "Pawar Aditya Harishchandra",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20912,7 +20146,6 @@
       "name": "Karandikar Aashay Surendra",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20939,7 +20172,6 @@
       "name": "Ayalani Rounak Ashok",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20966,7 +20198,6 @@
       "name": "Mulla Aleen Gulab",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -20993,7 +20224,6 @@
       "name": "Pawar Vishakha Kishor",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21020,7 +20250,6 @@
       "name": "Waghmare Kunal Arjun",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21047,7 +20276,6 @@
       "name": "Mantri Anvesha Vivek",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21074,7 +20302,6 @@
       "name": "Padman Aditya Balkrishna",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21101,7 +20328,6 @@
       "name": "Ansari Kasidali Sakirhussain",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21128,7 +20354,6 @@
       "name": "Agalgave Samarth Shivkumar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21155,7 +20380,6 @@
       "name": "Madne Sandhya Sadanand",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21182,7 +20406,6 @@
       "name": "Gopale Pragati Chandrakant",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21209,7 +20432,6 @@
       "name": "Karande Sumit Santosh",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21236,7 +20458,6 @@
       "name": "Lohar Kunal Sanjay",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21263,7 +20484,6 @@
       "name": "Pande Bhargavi Vinodkumar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21290,7 +20510,6 @@
       "name": "Gulhane Shravani Sachin",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21317,7 +20536,6 @@
       "name": "Bhatia Ira Rajiv",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21344,7 +20562,6 @@
       "name": "Desai Sarthak Shrikant",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21371,7 +20588,6 @@
       "name": "Patil Bhavesh Sahajanandsing",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21398,7 +20614,6 @@
       "name": "Quadri Syed Abdul Rahman",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21425,7 +20640,6 @@
       "name": "Deshmukh Shreya Vijayrao",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21452,7 +20666,6 @@
       "name": "Khajone Sharvari Rajesh",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21479,7 +20692,6 @@
       "name": "Bhosale Pruthviraj Mahadev",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21506,7 +20718,6 @@
       "name": "Solanke Ishvari Shivaji",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21533,7 +20744,6 @@
       "name": "Malwade Krishna Viddyasagar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21560,7 +20770,6 @@
       "name": "Sharma Srushti Rahul",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21587,7 +20796,6 @@
       "name": "Patil Shardul Jinendra",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21614,7 +20822,6 @@
       "name": "Sagale Kunal Dhanaraj",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21641,7 +20848,6 @@
       "name": "Kurmude Parth Rahul",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21668,7 +20874,6 @@
       "name": "Patni Shreyas Bipin",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21695,7 +20900,6 @@
       "name": "Patil Adesh Anandrao",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21722,7 +20926,6 @@
       "name": "Bhamre Aarya Mahesh",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21749,7 +20952,6 @@
       "name": "Mahajan Kartik Ashok",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21776,7 +20978,6 @@
       "name": "Desai Anshula Deepak",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21803,7 +21004,6 @@
       "name": "Gujar Rushil Vijay",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21830,7 +21030,6 @@
       "name": "Marathe Parth Kedar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21857,7 +21056,6 @@
       "name": "Lalit Tanmay Prakash",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21884,7 +21082,6 @@
       "name": "More Rutuja Valmik",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21911,7 +21108,6 @@
       "name": "Bhujade Sharwari Ranjan",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21938,7 +21134,6 @@
       "name": "Kale Siddhant Pravinkumar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21965,7 +21160,6 @@
       "name": "Rajput Saloni Nandkishor",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -21992,7 +21186,6 @@
       "name": "Chaure Kunal Sunil",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22019,7 +21212,6 @@
       "name": "Ghorpade Shreyash Sanjay",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22046,7 +21238,6 @@
       "name": "Borade Vivek Suresh",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22073,7 +21264,6 @@
       "name": "Birajdar Samradni Shivkmar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22100,7 +21290,6 @@
       "name": "Rai Aarush Vijay",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22127,7 +21316,6 @@
       "name": "Kadam Aaradhya Vinod",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22154,7 +21342,6 @@
       "name": "Itkelwar Pradyuth Girish",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22181,7 +21368,6 @@
       "name": "Devshatwar Prathamesh Avinash",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22208,7 +21394,6 @@
       "name": "Bhujbal Arush Rahul",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22235,7 +21420,6 @@
       "name": "Mantri Vidhish Pravin",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22262,7 +21446,6 @@
       "name": "Patil Manas Yogesh",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22289,7 +21472,6 @@
       "name": "Kumar Ankit -",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22316,7 +21498,6 @@
       "name": "Nayak Aditri -",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22343,7 +21524,6 @@
       "name": "Gundewadi Sneha Santosh",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22370,7 +21550,6 @@
       "name": "Meshram Kushal Ravi",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22397,7 +21576,6 @@
       "name": "Rana Aditya -",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22424,7 +21602,6 @@
       "name": "Walivadekar Hrudya -",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22451,7 +21628,6 @@
       "name": "Ashtaputre Vaijayanti Mukund",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22478,7 +21654,6 @@
       "name": "Deshpande Atharva Atul",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22505,7 +21680,6 @@
       "name": "Salunke Shreetosh Parag",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22532,7 +21706,6 @@
       "name": "Surwase Avinash Sanjeev",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22559,7 +21732,6 @@
       "name": "Gawande Rugved Vijay",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22586,7 +21758,6 @@
       "name": "Chavan Pranav Navnath",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22613,7 +21784,6 @@
       "name": "Kulkarni Akshay Parag",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22640,7 +21810,6 @@
       "name": "Telang Vedesh Muralidhar",
       "division": "FY11",
       "div_num": 11,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22667,7 +21836,6 @@
       "name": "Shilimkar Sonal S.",
       "division": "FY11",
       "div_num": 11,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -22694,7 +21862,6 @@
       "name": "Kunnummal Veedu Devamithra -.",
       "division": "FY11",
       "div_num": 11,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -22721,7 +21888,6 @@
       "name": "Palikan Suwan -.",
       "division": "FY11",
       "div_num": 11,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -22748,7 +21914,6 @@
       "name": "Bhavar Suyash B.",
       "division": "FY11",
       "div_num": 11,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -22771,11 +21936,10 @@
     },
     {
       "roll_no": 11173,
-      "mis_id": "NRI-11173",
+      "mis_id": "F2611173",
       "name": "Patil Tanushree Nilesh",
       "division": "FY11",
       "div_num": 11,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -22802,7 +21966,6 @@
       "name": "Gadage Aditya Ganesh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22829,7 +21992,6 @@
       "name": "Pal Suneet -",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22856,7 +22018,6 @@
       "name": "Ambekar Sanskar Sanjay",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22883,7 +22044,6 @@
       "name": "Kar Arpit Ajit",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22910,7 +22070,6 @@
       "name": "Chavan Swanand Shivaji",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22937,7 +22096,6 @@
       "name": "Sonar Shubhan Shyam",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22964,7 +22122,6 @@
       "name": "Mustapure Shubham Dattahari",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -22991,7 +22148,6 @@
       "name": "Kumre Saransh Prabhakar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23018,7 +22174,6 @@
       "name": "Dhekale Shivraj Balaji",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23045,7 +22200,6 @@
       "name": "Adsul Tanaya Raju",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23072,7 +22226,6 @@
       "name": "Kale Piyush Santosh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23099,7 +22252,6 @@
       "name": "Sambare Vivek Vishnu",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23126,7 +22278,6 @@
       "name": "Mane Vaibhav Dhananjay",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23153,7 +22304,6 @@
       "name": "Kulkarni Tanvi Gajanan",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23180,7 +22330,6 @@
       "name": "Dhobale Jay Uttamchand",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23207,7 +22356,6 @@
       "name": "Jadhav Arya Arun",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23234,7 +22382,6 @@
       "name": "Dhatrak Mayur Nitin",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23261,7 +22408,6 @@
       "name": "Rathod Pranav Rameshwar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23288,7 +22434,6 @@
       "name": "Joshi Kandekar Malhar Atul",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23315,7 +22460,6 @@
       "name": "Deshmukh Arnav Gajanan",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23342,7 +22486,6 @@
       "name": "Gholve Snehal Dattatray",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23369,7 +22512,6 @@
       "name": "Baviskar Aditya Anil",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23396,7 +22538,6 @@
       "name": "Pawar Chaitrali Santosh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23423,7 +22564,6 @@
       "name": "Tayade Parth Sanjay",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23450,7 +22590,6 @@
       "name": "Kharadi Fahad Fayaz",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23477,7 +22616,6 @@
       "name": "Sonawane Vaijayanti Yashwant",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23504,7 +22642,6 @@
       "name": "Sharma Shatakshi Kamal",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23531,7 +22668,6 @@
       "name": "Khandwe Rutuja Sandip",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23558,7 +22694,6 @@
       "name": "Ghume Soham Sayaji",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23585,7 +22720,6 @@
       "name": "Sapkal Bhavesh Pundlik",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23612,7 +22746,6 @@
       "name": "Khandelwal Khushi Suresh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23639,7 +22772,6 @@
       "name": "Dudgikar Arnav Vivek",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23666,7 +22798,6 @@
       "name": "Jadhav Alina Sanjeevkumar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23693,7 +22824,6 @@
       "name": "Naseer Sayyed Nihal Sayyed",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23720,7 +22850,6 @@
       "name": "Nile Preet Anil",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23747,7 +22876,6 @@
       "name": "Patel Neel Ashishkumar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23774,7 +22902,6 @@
       "name": "Dabke Aarush Sameer",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23801,7 +22928,6 @@
       "name": "Sande Alisha Akil",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23828,7 +22954,6 @@
       "name": "Bisen Om Vinayak",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23855,7 +22980,6 @@
       "name": "Munde Atharva Vinayak",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23882,7 +23006,6 @@
       "name": "Mokle Arush Shyam",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23909,7 +23032,6 @@
       "name": "Chavan Snehal Kiran",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23936,7 +23058,6 @@
       "name": "Gundecha Sujal Dhanesh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23963,7 +23084,6 @@
       "name": "Gaikwad Somnath Sudhakar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -23990,7 +23110,6 @@
       "name": "Vaidya Jidnyasa Sagar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24017,7 +23136,6 @@
       "name": "Agrawal Aditya Uttam",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24044,7 +23162,6 @@
       "name": "Sharma Khushi Ashish",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24071,7 +23188,6 @@
       "name": "Joshi Pranav Shounak",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24098,7 +23214,6 @@
       "name": "Lalwani Manthan Yogesh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24125,7 +23240,6 @@
       "name": "Phule Pratiksha Vikas",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24152,7 +23266,6 @@
       "name": "Dere Pratik Rajendra",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24179,7 +23292,6 @@
       "name": "Pawar Ashish Sanjay",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24206,7 +23318,6 @@
       "name": "Shaikh Rehan Javed",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24233,7 +23344,6 @@
       "name": "Redasani Alek Pramod",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24260,7 +23370,6 @@
       "name": "Patil Aditya Vishal",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24287,7 +23396,6 @@
       "name": "Dhurve Ishika Murlidhar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24314,7 +23422,6 @@
       "name": "Jha Preesha Prashant",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24341,7 +23448,6 @@
       "name": "Patil Atharva Parag",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24368,7 +23474,6 @@
       "name": "Daphal Pratik Santosh",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24395,7 +23500,6 @@
       "name": "Shingate Apurv Amol",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24422,7 +23526,6 @@
       "name": "Anant Ishaan -",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24449,7 +23552,6 @@
       "name": "Awaghade Shreyash Shivshankar",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24476,7 +23578,6 @@
       "name": "Gaikwad Shlok Dipak",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24503,7 +23604,6 @@
       "name": "Gaikwad Vedant Sandeep",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24530,7 +23630,6 @@
       "name": "Shirbhate Yash Vinod",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24557,7 +23656,6 @@
       "name": "Musale Sanchit Rajendra",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24584,7 +23682,6 @@
       "name": "Kawarkhe Swanand Vasantrao",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24611,7 +23708,6 @@
       "name": "Namjoshi Shaarav Shishir",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24638,7 +23734,6 @@
       "name": "Jamb Aashrit Harish",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24665,7 +23760,6 @@
       "name": "Bhadgaonkar Nandini Sanjay",
       "division": "FY12",
       "div_num": 12,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24692,7 +23786,6 @@
       "name": "Sharma Torsha -.",
       "division": "FY12",
       "div_num": 12,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -24719,7 +23812,6 @@
       "name": "Cerejo Blesiya A.",
       "division": "FY12",
       "div_num": 12,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -24746,7 +23838,6 @@
       "name": "Verma Vyom V.",
       "division": "FY12",
       "div_num": 12,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -24773,7 +23864,6 @@
       "name": "Mandlik Varad Girish",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24800,7 +23890,6 @@
       "name": "Deshmukh Arnav Yogesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24827,7 +23916,6 @@
       "name": "Morade Ishita Yogesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24854,7 +23942,6 @@
       "name": "Patil Sarthak Sunil",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24881,7 +23968,6 @@
       "name": "Borhade Sarthak Changdev",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24908,7 +23994,6 @@
       "name": "Saraf Krishnachaitanya Shrikant",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24935,7 +24020,6 @@
       "name": "Gadgil Swapnil Sagar",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24962,7 +24046,6 @@
       "name": "Joshi Pritika Prashant",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -24989,7 +24072,6 @@
       "name": "Chavan Snehal Rajendra",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25016,7 +24098,6 @@
       "name": "Dharmadhikari Mihir Nitin",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25043,7 +24124,6 @@
       "name": "Jadhav Sarika Shantaram",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25070,7 +24150,6 @@
       "name": "Patil Aaryan Mahendra",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25097,7 +24176,6 @@
       "name": "Fartade Sangram Balbhim",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25124,7 +24202,6 @@
       "name": "Khot Shrushti Popat",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25151,7 +24228,6 @@
       "name": "Rathi Kush Rameshwar",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25178,7 +24254,6 @@
       "name": "Pensioner Aayan Shakirhusen",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25205,7 +24280,6 @@
       "name": "Gawari Aniket Kisan",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25232,7 +24306,6 @@
       "name": "Sandhu S Sarabjeet Singh Roshanjeet Singh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25259,7 +24332,6 @@
       "name": "Chhattani Kristy Amit",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25286,7 +24358,6 @@
       "name": "Gurbani Mayank Vijay",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25313,7 +24384,6 @@
       "name": "Gavhane Yuvraj Khanderao",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25340,7 +24410,6 @@
       "name": "Kadam Akshada Madhukar",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25367,7 +24436,6 @@
       "name": "Patange Sarvadnya Vivek",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25394,7 +24462,6 @@
       "name": "Mahajan Aishwarya Aashish",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25421,7 +24488,6 @@
       "name": "Dahihande Shreyash Santosh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25448,7 +24514,6 @@
       "name": "Lad Pratik Mohan",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25475,7 +24540,6 @@
       "name": "Arghode Sarthak Vilin",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25502,7 +24566,6 @@
       "name": "Gurav Shivtej Balasaheb",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25529,7 +24592,6 @@
       "name": "Khandare Sumit Ganesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25556,7 +24618,6 @@
       "name": "Mune Prathmesh Atul",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25583,7 +24644,6 @@
       "name": "Jagtap Smit Pravin",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25610,7 +24670,6 @@
       "name": "Zalke Dhanshu Sudhakar",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25637,7 +24696,6 @@
       "name": "Naik Parinita Amit",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25664,7 +24722,6 @@
       "name": "Bokil Atharva Prasad",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25691,7 +24748,6 @@
       "name": "Shingnare Nayan Sunil",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25718,7 +24774,6 @@
       "name": "Handigund Parth Praveen",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25745,7 +24800,6 @@
       "name": "Ranaware Disha Vivek",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25772,7 +24826,6 @@
       "name": "Deshmukh Nikita Shailesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25799,7 +24852,6 @@
       "name": "Metge Prashant Sidram",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25826,7 +24878,6 @@
       "name": "Sapale Atharva Kishor",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25853,7 +24904,6 @@
       "name": "Jaiswal Mayank Rupesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25880,7 +24930,6 @@
       "name": "Bihade Ram Haridas",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25907,7 +24956,6 @@
       "name": "Ghuge Aayush Ganpat",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25934,7 +24982,6 @@
       "name": "Tadas Atharva Yogesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25961,7 +25008,6 @@
       "name": "Daruwale Zubair Husein",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -25988,7 +25034,6 @@
       "name": "Mandhare Shreyash Sadashiv",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26015,7 +25060,6 @@
       "name": "Rathod Tanish Vinod",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26042,7 +25086,6 @@
       "name": "Chaudhari Prathamesh Rajesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26069,7 +25112,6 @@
       "name": "Patange Tejas Gajanan",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26096,7 +25138,6 @@
       "name": "Khan Akrama Faiz Sameer",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26123,7 +25164,6 @@
       "name": "Khatkale Anant Shyam",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26150,7 +25190,6 @@
       "name": "Shirsat Mahendra Ashok",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26177,7 +25216,6 @@
       "name": "Adsure Suyash Dnyandeo",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26204,7 +25242,6 @@
       "name": "Ipper Tejas Dashrath",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26231,7 +25268,6 @@
       "name": "Badgujar Piyush Mahendra",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26258,7 +25294,6 @@
       "name": "Baviskar Anik Amit",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26285,7 +25320,6 @@
       "name": "Pandharpatte Samarth Deepak",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26312,7 +25346,6 @@
       "name": "Chalkapure Parth Ram",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26339,7 +25372,6 @@
       "name": "Joshi Adwait Mangesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26366,7 +25398,6 @@
       "name": "Gupta Arihant -",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26393,7 +25424,6 @@
       "name": "Halbe Parth Shrirang",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26420,7 +25450,6 @@
       "name": "Gosavi Aarya Vikas",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26447,7 +25476,6 @@
       "name": "Waghmare Anushka Rajanand",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26474,7 +25502,6 @@
       "name": "Barve Advait Girish",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26501,7 +25528,6 @@
       "name": "Chalak Sarthak Shamsundar",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26528,7 +25554,6 @@
       "name": "Kamble Aarya Shekhar",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26555,7 +25580,6 @@
       "name": "Maske Soham Ganesh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26582,7 +25606,6 @@
       "name": "Dabhade Prasad Hemant",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26609,7 +25632,6 @@
       "name": "Tari Animesh Santosh",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26636,7 +25658,6 @@
       "name": "Deshmane Ishwari Mahendra",
       "division": "FY13",
       "div_num": 13,
-      "category": "General",
       "subjects": [
         "lac",
         "cpps",
@@ -26663,7 +25684,6 @@
       "name": "Raghani Vidhi H.",
       "division": "FY13",
       "div_num": 13,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -26690,7 +25710,6 @@
       "name": "Vikhe Shardool R.",
       "division": "FY13",
       "div_num": 13,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
@@ -26717,7 +25736,6 @@
       "name": "Kashyap Palvi V.",
       "division": "FY13",
       "div_num": 13,
-      "category": "NRI / OCI / CIWGC",
       "subjects": [
         "lac",
         "cpps",
