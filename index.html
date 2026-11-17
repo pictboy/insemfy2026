@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PICT First Year B.Tech Academic Assessment Portal 2026-27</title>
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js CDN for Analytics Visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-content">
+      <div class="brand-section">
+        <div class="pict-logo">
+          <!-- PICT Academic Emblem Icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="#0f2d59" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+          </svg>
+        </div>
+        <div class="brand-title">
+          <h1>PUNE INSTITUTE OF COMPUTER TECHNOLOGY</h1>
+          <p>F.Y. B.Tech Academic Assessment Portal (A.Y. 2026-27) | All 13 Divisions</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="PICT_Student_Marks_Division_Wise_with_NRI.xlsx" class="action-btn btn-primary" download>
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+          </svg>
+          <span>Download Excel</span>
+        </a>
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <!-- Theme icon inserted via JS -->
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Bar Tabs -->
+  <nav class="nav-bar">
+    <div class="nav-tabs">
+      <button class="nav-tab active" data-tab="overview">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        <span>Overview & Analytics</span>
+      </button>
+      <button class="nav-tab" data-tab="tables">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+        <span>Division Marks Tables</span>
+      </button>
+      <button class="nav-tab" data-tab="lookup">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        <span>Student Search & Lookup</span>
+      </button>
+      <button class="nav-tab" data-tab="toppers">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+        <span>Toppers & Hall of Fame</span>
+      </button>
+      <button class="nav-tab" data-tab="compare">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+        <span>Division Comparison</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="app-container">
+
+    <!-- KPI Metric Cards Ribbon -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon" style="background:#eff6ff; color:#2563eb;">
+          <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+        </div>
+        <div class="stat-info">
+          <h3>Total Students</h3>
+          <div id="kpiTotalStudents" class="stat-value">955</div>
+          <div class="stat-sub">Across 13 Divisions</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon" style="background:#ecfdf5; color:#10b981;">
+          <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        </div>
+        <div class="stat-info">
+          <h3>Overall Class Average</h3>
+          <div id="kpiAverageScore" class="stat-value">--</div>
+          <div class="stat-sub">Out of 100 Marks</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon" style="background:#fef3c7; color:#d97706;">
+          <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+        </div>
+        <div class="stat-info">
+          <h3>Highest Score</h3>
+          <div id="kpiTopScore" class="stat-value">--</div>
+          <div id="kpiTopperName" class="stat-sub">--</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon" style="background:#f3e8ff; color:#9333ea;">
+          <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        </div>
+        <div class="stat-info">
+          <h3>NRI / OCI / CIWGC</h3>
+          <div id="kpiNriCount" class="stat-value">71 Students</div>
+          <div class="stat-sub">Fully Integrated into Divs</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 1: OVERVIEW & ANALYTICS ==================== -->
+    <section id="overviewSection" class="view-section active">
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h3>
+            <span>Division-Wise Performance Comparison</span>
+            <span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">(Average /100)</span>
+          </h3>
+          <div class="chart-container">
+            <canvas id="divisionChart"></canvas>
+          </div>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.75rem; text-align:center;">
+            Divisions 1–7 (Blue: LAC, CPPS, MFR, QP, IEEE) | Divisions 8–13 (Green: LAC, CPPS, CST, ESE, EG)
+          </p>
+        </div>
+
+        <div class="chart-card">
+          <h3>
+            <span>Overall Grade & Distinction Distribution</span>
+            <span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">(955 Students)</span>
+          </h3>
+          <div class="chart-container">
+            <canvas id="gradeChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Curriculum Structure Guide -->
+      <div class="card">
+        <div class="card-header">
+          <h2>
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+            <span>First Year Curriculum Subject Groups</span>
+          </h2>
+        </div>
+        <div class="card-body" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:1.5rem;">
+          <div style="background:var(--bg-tertiary); padding:1.25rem; border-radius:var(--radius-md); border-left:4px solid var(--brand-blue);">
+            <h3 style="font-size:1.05rem; font-weight:700; color:var(--brand-blue); margin-bottom:0.5rem;">Group 1: Divisions 1 to 7 (FY1 – FY7)</h3>
+            <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:0.75rem;">Total Students: 518 | 5 Subjects evaluated out of 20 marks each:</p>
+            <ul style="font-size:0.85rem; line-height:1.7; padding-left:1.25rem; color:var(--text-primary);">
+              <li><strong>LAC (2601BS11)</strong>: Linear Algebra and Calculus</li>
+              <li><strong>CPPS (2601PC11)</strong>: C Programming for Problem Solving</li>
+              <li><strong>MFR (2601ES11)</strong>: Mechanics for Robotics</li>
+              <li><strong>QP (2601BS12)</strong>: Quantum Physics</li>
+              <li><strong>IEEE (2601ES12)</strong>: Integrated Electrical & Electronics Engineering</li>
+            </ul>
+          </div>
+
+          <div style="background:var(--bg-tertiary); padding:1.25rem; border-radius:var(--radius-md); border-left:4px solid var(--success);">
+            <h3 style="font-size:1.05rem; font-weight:700; color:var(--success); margin-bottom:0.5rem;">Group 2: Divisions 8 to 13 (FY8 – FY13)</h3>
+            <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:0.75rem;">Total Students: 437 | 5 Subjects evaluated out of 20 marks each:</p>
+            <ul style="font-size:0.85rem; line-height:1.7; padding-left:1.25rem; color:var(--text-primary);">
+              <li><strong>LAC (2601BS11)</strong>: Linear Algebra and Calculus</li>
+              <li><strong>CPPS (2601PC11)</strong>: C Programming for Problem Solving</li>
+              <li><strong>CST (2601BS13)</strong>: Chemical Science and Technology</li>
+              <li><strong>ESE (2601VE11)</strong>: Environment and Sustainable Engineering</li>
+              <li><strong>EG (2601ES13)</strong>: Engineering Graphics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: DIVISION MARKS TABLES ==================== -->
+    <section id="tablesSection" class="view-section">
+      <!-- Division Quick Switch Pills -->
+      <div id="divisionSelectorBar" class="division-selector-bar">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+            <span id="currentDivisionTableTitle">Student Marks Table</span>
+          </h2>
+          <div style="display:flex; gap:0.5rem;">
+            <button id="exportCsvBtn" class="action-btn" style="background:var(--brand-blue); border-color:var(--brand-blue); color:white;">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+              <span>Export CSV</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <!-- Toolbar (Search & Filter) -->
+          <div class="table-toolbar">
+            <div class="search-box">
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+              <input type="text" id="tableSearchInput" placeholder="Search by name, roll number, or MIS ID...">
+            </div>
+
+            <div class="filter-group">
+              <label style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">Category:</label>
+              <select id="categoryFilter" class="filter-select">
+                <option value="all">All Categories</option>
+                <option value="General">General (Regular)</option>
+                <option value="NRI">NRI / OCI / CIWGC</option>
+              </select>
+
+              <label style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">Rows:</label>
+              <select id="rowsPerPageSelect" class="filter-select">
+                <option value="25">25 rows</option>
+                <option value="50">50 rows</option>
+                <option value="100">100 rows</option>
+                <option value="all">All rows</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Table -->
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead id="tableHead">
+                <!-- Dynamically generated -->
+              </thead>
+              <tbody id="tableBody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination-container">
+            <div id="tableCountInfo">Showing 0 of 0 students</div>
+            <div id="paginationControls" class="pagination-controls">
+              <!-- Injected via JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 3: STUDENT SEARCH & LOOKUP ==================== -->
+    <section id="lookupSection" class="view-section">
+      <div class="card">
+        <div class="card-header">
+          <h2>
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <span>Direct Student Search & Digital Marksheet</span>
+          </h2>
+        </div>
+        <div class="card-body">
+          <div style="max-width: 600px; margin: 0 auto 2rem;">
+            <div class="search-box" style="max-width: 100%;">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+              <input type="text" id="globalSearchInput" placeholder="Search by student name (e.g. Tanaya), roll number (10101), or MIS ID (F260052)..." style="font-size:1rem; padding:0.85rem 1rem 0.85rem 3rem;">
+            </div>
+          </div>
+
+          <div id="globalSearchResults">
+            <div style="text-align:center; padding: 2.5rem; color:var(--text-muted);">
+              Type a student name, roll number, or MIS ID above to view their comprehensive assessment report.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 4: TOPPERS & LEADERBOARD ==================== -->
+    <section id="toppersSection" class="view-section">
+      <!-- College Top 3 Rankers Podium -->
+      <div class="card">
+        <div class="card-header">
+          <h2>
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+            <span>College Overall Top Rankers Podium</span>
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="podium-container">
+            <!-- Rank 2 -->
+            <div class="podium-step podium-2">
+              <div class="podium-avatar">🥈</div>
+              <div style="font-size:0.85rem; font-weight:700; color:var(--text-secondary); margin-bottom:0.25rem;">2nd Place</div>
+              <div id="podium2Name" style="font-size:0.95rem; font-weight:800; color:var(--text-primary); margin-bottom:0.25rem;">--</div>
+              <div id="podium2Score" style="font-size:1.1rem; font-weight:800; color:var(--brand-blue); margin-bottom:0.25rem;">--</div>
+              <div id="podium2Meta" style="font-size:0.75rem; color:var(--text-muted); margin-bottom:0.5rem;">--</div>
+              <div class="podium-box">RANK 2</div>
+            </div>
+
+            <!-- Rank 1 (Gold) -->
+            <div class="podium-step podium-1">
+              <div class="podium-avatar">👑</div>
+              <div style="font-size:0.9rem; font-weight:800; color:#d97706; margin-bottom:0.25rem;">1st Place (College Topper)</div>
+              <div id="podium1Name" style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:0.25rem;">--</div>
+              <div id="podium1Score" style="font-size:1.35rem; font-weight:800; color:#d97706; margin-bottom:0.25rem;">--</div>
+              <div id="podium1Meta" style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.5rem;">--</div>
+              <div class="podium-box">RANK 1</div>
+            </div>
+
+            <!-- Rank 3 -->
+            <div class="podium-step podium-3">
+              <div class="podium-avatar">🥉</div>
+              <div style="font-size:0.85rem; font-weight:700; color:var(--text-secondary); margin-bottom:0.25rem;">3rd Place</div>
+              <div id="podium3Name" style="font-size:0.95rem; font-weight:800; color:var(--text-primary); margin-bottom:0.25rem;">--</div>
+              <div id="podium3Score" style="font-size:1.1rem; font-weight:800; color:var(--brand-blue); margin-bottom:0.25rem;">--</div>
+              <div id="podium3Meta" style="font-size:0.75rem; color:var(--text-muted); margin-bottom:0.5rem;">--</div>
+              <div class="podium-box">RANK 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Division Toppers Table -->
+      <div class="card">
+        <div class="card-header">
+          <h2>
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
+            <span>Division Toppers List (Div 1 to Div 13)</span>
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Division</th>
+                  <th>Roll No.</th>
+                  <th>Student Name</th>
+                  <th>Highest Score (/100)</th>
+                  <th>Division Average</th>
+                </tr>
+              </thead>
+              <tbody id="divToppersBody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 5: DIVISION COMPARISON TOOL ==================== -->
+    <section id="compareSection" class="view-section">
+      <div class="card">
+        <div class="card-header">
+          <h2>
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+            <span>Side-by-Side Division Benchmark Comparison</span>
+          </h2>
+          <div style="display:flex; gap:1rem; align-items:center;">
+            <select id="compareDiv1Select" class="filter-select">
+              <option value="FY1">Division 1 (FY1)</option>
+              <option value="FY2">Division 2 (FY2)</option>
+              <option value="FY3">Division 3 (FY3)</option>
+              <option value="FY4">Division 4 (FY4)</option>
+              <option value="FY5">Division 5 (FY5)</option>
+              <option value="FY6">Division 6 (FY6)</option>
+              <option value="FY7">Division 7 (FY7)</option>
+              <option value="FY8">Division 8 (FY8)</option>
+              <option value="FY9">Division 9 (FY9)</option>
+              <option value="FY10">Division 10 (FY10)</option>
+              <option value="FY11">Division 11 (FY11)</option>
+              <option value="FY12">Division 12 (FY12)</option>
+              <option value="FY13">Division 13 (FY13)</option>
+            </select>
+            <span style="font-weight:700; color:var(--text-muted);">VS</span>
+            <select id="compareDiv2Select" class="filter-select">
+              <option value="FY1">Division 1 (FY1)</option>
+              <option value="FY2">Division 2 (FY2)</option>
+              <option value="FY3">Division 3 (FY3)</option>
+              <option value="FY4">Division 4 (FY4)</option>
+              <option value="FY5">Division 5 (FY5)</option>
+              <option value="FY6">Division 6 (FY6)</option>
+              <option value="FY7">Division 7 (FY7)</option>
+              <option value="FY8" selected>Division 8 (FY8)</option>
+              <option value="FY9">Division 9 (FY9)</option>
+              <option value="FY10">Division 10 (FY10)</option>
+              <option value="FY11">Division 11 (FY11)</option>
+              <option value="FY12">Division 12 (FY12)</option>
+              <option value="FY13">Division 13 (FY13)</option>
+            </select>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="compare-container">
+            <div id="compareCard1" class="compare-card"></div>
+            <div id="compareCard2" class="compare-card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== STUDENT REPORT CARD MODAL ==================== -->
+  <div id="studentModal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Official Continuous Assessment Marksheet</h3>
+        <button id="closeModalBtn" class="close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <!-- Banner -->
+        <div class="report-card-banner">
+          <div id="modalStudentAvatar" class="student-avatar">ST</div>
+          <div class="student-meta" style="flex:1;">
+            <h2 id="modalStudentName">Student Name</h2>
+            <p id="modalStudentMeta">Roll No | MIS ID | Division</p>
+            <div class="student-ranks">
+              <span id="modalClassRank" style="font-size:0.85rem; font-weight:700; color:var(--text-secondary); margin-right:1rem;">Class Rank: --</span>
+              <span id="modalCollegeRank" style="font-size:0.85rem; font-weight:700; color:var(--text-secondary);">College Rank: --</span>
+            </div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Overall Score</div>
+            <div id="modalTotalScore" style="font-size:1.8rem; font-weight:800; color:var(--brand-blue); line-height:1;">--</div>
+            <div id="modalPercentage" style="font-size:0.9rem; font-weight:700; color:var(--success);">--%</div>
+          </div>
+        </div>
+
+        <h4 style="font-size:0.95rem; font-weight:700; color:var(--text-primary); margin-bottom:0.75rem;">Subject Performance Breakdown (Out of 20):</h4>
+        
+        <!-- Subject cards grid -->
+        <div id="modalSubjectsGrid" class="subject-marks-grid">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Footer Actions -->
+        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-color); padding-top:1.25rem;">
+          <div style="font-size:0.75rem; color:var(--text-muted);">
+            SCTR's Pune Institute of Computer Technology • Autonomous Institute
+          </div>
+          <button id="printReportBtn" class="action-btn btn-primary" style="padding:0.45rem 1rem;">
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+            <span>Print Marksheet</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Data and Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
